@@ -1,0 +1,146 @@
+module Base
+module CigaretteMod
+
+{
+	recipe Generator Trailer
+	{
+		CigaretteMod.CigaretteCarton=15,
+		Result:PinkSlip.TrailerGenerator,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe Iso Container
+	{
+		CigaretteMod.CigaretteCarton=20,
+		Result:PinkSlip.isoContainer2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe Iso Fuel Container
+	{
+		CigaretteMod.CigaretteCarton=20,
+		Result:PinkSlip.isoContainer3tanker,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe Propane Truck (contact admin to fill tank)
+	{
+		CigaretteMod.CigaretteCarton=100,
+		Result:PinkSlip.f700propane,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe '91 Dadge Steals Twin Turbo
+	{
+		CigaretteMod.CigaretteCarton=35,
+		Result:PinkSlip.ATADodge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe '92 NISSAN Skyline GT-R
+	{
+		CigaretteMod.CigaretteCarton=40,
+		Result:PinkSlip.92nissanGTR,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe '86 Ford Bronco
+	{
+		CigaretteMod.CigaretteCarton=40,
+		Result:APBpack.89fordBronco,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe '88 Chevy S10
+	{
+		CigaretteMod.CigaretteCarton=38,
+		Result:APBpack.88chevyS10,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe '82 Jeep J10
+	{
+		CigaretteMod.CigaretteCarton=42,
+		Result:APBpack.82jeepJ10,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe '90 Niva SUV
+	{
+		Base.Cigarettes=5,
+		Result:PinkSlip.90niva,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe '85 Junk Merc
+	{
+		Base.Cigarettes=6,
+		Result:PinkSlip.85mercJunk,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe '88 Golf 2 Door Mk2
+	{
+		Base.Cigarettes=7,
+		Result:PinkSlip.88golf2doorMk2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe '88 Jetta 4 Door Mk2
+	{
+		Base.Cigarettes=8,
+		Result:PinkSlip.88jetta4doorMk2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe '85 Merc Wagon
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=5,
+		Result:PinkSlip.85mercWagon2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+}

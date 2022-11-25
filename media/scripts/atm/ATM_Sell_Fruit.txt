@@ -1,0 +1,69 @@
+module Base
+module CigaretteMod
+{
+        
+	recipe Sell Apple{
+		Apple=7,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		NoBrokenItems:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+    recipe Sell Banana{
+		Banana=7,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+    recipe Sell Cherry{
+		Cherry=25,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+    recipe Sell Lemon{
+		Lemon=7,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+    recipe Sell Orange{
+		Orange=7,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+    recipe Sell Peach{
+		Peach=7,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+    recipe Sell Pineapple{
+		Pineapple=3,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+}

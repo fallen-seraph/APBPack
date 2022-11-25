@@ -1,0 +1,22 @@
+module Base
+{
+    model ATM
+	{
+		mesh = WorldItems/ATM,
+		texture = WorldItems/ATM,
+		scale = 1.2,
+	}
+
+	model ATM-mech
+	{
+		mesh = WorldItems/ATM,
+		texture = WorldItems/ATM-mech,
+		scale = 1.2,
+	}
+	model SmallItem
+	{
+		mesh = WorldItems/Paperclip,
+		texture = WorldItems/Paperclip,
+		scale = 0.0001,
+	}
+}

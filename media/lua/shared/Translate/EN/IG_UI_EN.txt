@@ -1,0 +1,7 @@
+IGUI_EN = {
+	IGUI_EER_RebuildEngine = "Rebuild Engine",
+	IGUI_VehicleNameschoolbuscamo = "Franklin BE70 School Bus Camo",
+	IGUI_VehicleName78amgeneralM35A2KSSA = "'78 AM General M35A2 KSSA",
+	IGUI_VehicleName92amgeneralM998KSSA = "'92 AM General M998 KSSA",
+	IGUI_VehicleName84mercLWB4CUSTOM = "'84 Mercedes-Benz Custom W460 4-Door LWB",
+}

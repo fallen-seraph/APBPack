@@ -1,0 +1,1737 @@
+module Base
+module CigaretteMod
+module APBpack
+
+{
+
+/********************* Shop Furniture ************************************************/
+
+		recipe Beige Magazine Shop Shelves
+	{
+		Base.Cigarettes=3,
+		Result:Adm_BeigeMagazineShopShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Beige Rack Shop 1/4
+	{
+		Base.Cigarettes=1,
+		Result:Adm_BeigeRackShopShelves1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Beige Rack Shop 2/4
+	{
+		Base.Cigarettes=1,
+		Result:Adm_BeigeRackShopShelves2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Beige Rack Shop 3/4
+	{
+		Base.Cigarettes=1,
+		Result:Adm_BeigeRackShopShelves3,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	
+		recipe Beige Rack Shop 4/4
+	{
+		Base.Cigarettes=1,
+		Result:Adm_BeigeRackShopShelves4,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	
+		recipe Beige Sink
+	{
+		Base.Cigarettes=2,
+		Result:Adm_BeigeSink,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	
+		recipe Beige Wall Shop Shelves
+	{
+		Base.Cigarettes=3,
+		Result:Adm_BeigeWallShopShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Big Wall Shelves
+	{
+		Base.Cigarettes=4,
+		Result:Adm_BigWallShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Blue Fridge
+	{
+		Base.Cigarettes=3,
+		Result:Adm_BlueFridge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Built-in Trailer Fridge
+	{
+		Base.Cigarettes=1,
+		Result:Adm_BuiltinTrailerFridge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe China Cabinet 1/2
+	{
+		Base.Cigarettes=1,
+		Result:Adm_ChinaCabinet1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe China Cabinet 2/2
+	{
+		Base.Cigarettes=1,
+		Result:Adm_ChinaCabinet2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Chrome Microwave
+	{
+		Base.Cigarettes=6,
+		Result:Adm_ChromeMicrowave,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Chrome Sink
+	{
+		Base.Cigarettes=5,
+		Result:Adm_ChromeSink,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Clothes Stand
+	{
+		Base.Cigarettes=3,
+		Result:Adm_ClothesStand,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Clothing Shop Shelves
+	{
+		Base.Cigarettes=3,
+		Result:Adm_ClothingShopShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Coat Rack
+	{
+		Base.Cigarettes=1,
+		Result:Adm_CoatRack,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Comics Shop Shelves
+	{
+		Base.Cigarettes=2,
+		Result:Adm_ComicsShopShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Dark Fancy Wardrobe 1/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_DarkFancyWardrobe1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Dark Fancy Wardrobe 2/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_DarkFancyWardrobe2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Dark Industrial Sink
+	{
+		Base.Cigarettes=5,
+		Result:Adm_DarkIndustrialSink,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Deluxe Shower
+	{
+		Base.Cigarettes=2,
+		Result:Adm_DeluxeShower,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Fancy Hanging Sink
+	{
+		Base.Cigarettes=2,
+		Result:Adm_FancyHangingSink,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Fancy Oak Wardrobe 1/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_FancyOakWardrobe1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Fancy Oak Wardrobe 2/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_FancyOakWardrobe2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Fancy Toilet
+	{
+		Base.Cigarettes=3,
+		Result:Adm_FancyToilet,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Fancy White Wardrobe 1/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_FancyWhiteWardrobe1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Fancy White Wardrobe 2/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_FancyWhiteWardrobe2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Fancy Wooden Shop Shelves
+	{
+		Base.Cigarettes=3,
+		Result:Adm_FancyWoodenShopShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Generic Cooled Shelves 1/3
+	{
+		Base.Cigarettes=1,
+		Result:Adm_GenericCooledShelves1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Generic Cooled Shelves 2/3
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GenericCooledShelves2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Generic Cooled Shelves 3/3
+	{
+		Base.Cigarettes=1,
+		Result:Adm_GenericCooledShelves3,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		
+        recipe Grey Oven
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GreyOven,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Green Oven
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GreenOven,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Green Fridge
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GreenFridge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Hardwood Wall Shelves
+	{
+		Base.Cigarettes=2,
+		Result:Adm_HardwoodWallShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Industrial Fridge
+	{
+        Base.Cigarettes=8,
+		Result:Adm_IndustrialFridge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Industrial Oven
+	{
+		Base.Cigarettes=7,
+		Result:Adm_IndustrialOven,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Industrial Sink
+	{
+		Base.Cigarettes=5,
+		Result:Adm_IndustrialSink,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Bar Wall Middle
+	{
+		Base.Cigarettes=2,
+		Result:Adm_MiddleBarWallShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Bar Wall Left
+	{
+		Base.Cigarettes=2,
+		Result:Adm_LeftBarWallShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Bar Wall Right
+	{
+		Base.Cigarettes=2,
+		Result:Adm_RightBarWallShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large clothes Rack 1/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_LargeClothesRack1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large clothes Rack 2/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_LargeClothesRack2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large Deluxe Bath 1/2
+	{
+		Base.Cigarettes=5,
+		Result:Adm_LargeDeluxeBath1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large Deluxe Bath 2/2
+	{
+		Base.Cigarettes=5,
+		Result:Adm_LargeDeluxeBath2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large Fridge 1/2
+	{
+		Base.Cigarettes=3,
+		Result:Adm_LargeFridge1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large Fridge 2/2
+	{
+		Base.Cigarettes=3,
+		Result:Adm_LargeFridge2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large Metal Shelves 1/2
+	{
+		Base.Cigarettes=3,
+		Result:Adm_LargeMetalShelves1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large Metal Shelves 2/2
+	{
+		Base.Cigarettes=3,
+		Result:Adm_LargeMetalShelves2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large Modern Oven 1/2
+	{
+		Base.Cigarettes=3,
+		Result:Adm_LargeModernOven1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large Modern Oven 2/2
+	{
+		Base.Cigarettes=3,
+		Result:Adm_LargeModernOven2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large Shop Shelves 1/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_LargeShopShelves1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large Shop Shelves 2/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_LargeShopShelves2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large Wardrobe 1/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_LargeWardrobe1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Large Wardrobe 2/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_LargeWardrobe2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+		recipe Lightwood Wardrobe 1/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_LightWoodWardrobe1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Lightwood Wardrobe 2/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_LightWoodWardrobe2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Lightwood Wall Shelves
+	{
+		Base.Cigarettes=2,
+		Result:Adm_LightwoodWallShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Long Shelves 1/4
+	{
+		Base.Cigarettes=1,
+		Result:Adm_LongShelves1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Long Shelves 2/4
+	{
+		Base.Cigarettes=1,
+		Result:Adm_LongShelves2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Long Shelves 3/4
+	{
+		Base.Cigarettes=1,
+		Result:Adm_LongShelves3,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Long Shelves 4/4
+	{
+		Base.Cigarettes=1,
+		Result:Adm_LongShelves4,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Tall Mirror
+	{
+		Base.Cigarettes=1,
+		Result:Adm_MedicalMirror,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Medical Tool Drawers
+	{
+		Base.Cigarettes=2,
+		Result:Adm_MedicalToolDrawers,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Medicine Cabinet
+	{
+		Base.Cigarettes=2,
+		Result:Adm_MedicineCabinet,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Mini Fridge
+	{
+		Base.Cigarettes=5,
+		Result:Adm_MiniFridge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Mirror and Drawers
+	{
+		Base.Cigarettes=5,
+		Result:Adm_MirrorandDrawers,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Modern Oven
+	{
+		Base.Cigarettes=6,
+		Result:Adm_ModernOven,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Oakwood Shelves
+	{
+		Base.Cigarettes=2,
+		Result:Adm_OakwoodShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Open Wardrobe 1/2
+	{
+		Base.Cigarettes=1,
+		Result:Adm_OpenWardrobe1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Open Wardrobe 2/2
+	{
+		Base.Cigarettes=1,
+		Result:Adm_OpenWardrobe2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Small Chrome Toaster
+	{
+		Base.Cigarettes=2,
+		Result:Adm_SmallChromeToaster,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Small Clothes Rack 1/2
+	{
+		Base.Cigarettes=1,
+		Result:Adm_SmallClothesRack1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Small Clothes Rack 2/2
+	{
+		Base.Cigarettes=1,
+		Result:Adm_SmallClothesRack2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Wall Shower
+	{
+		Base.Cigarettes=1,
+		Result:Adm_WallShower,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe White Microwave
+	{
+		Base.Cigarettes=3,
+		Result:Adm_WhiteMicrowave,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe White Sink
+	{
+		Base.Cigarettes=2,
+		Result:Adm_WhiteSink,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Glass Display Counter
+	{
+		Base.Cigarettes=3,
+		Result:Adm_GlassDisplayCounter,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Glass Display Stand 1/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GlassDisplayStand1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Glass Display Stand 2/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GlassDisplayStand2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Pie Display Stand
+	{
+		Base.Cigarettes=2,
+		Result:Adm_PieDisplayStand,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Rounded Glass Display Counter 1/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_RoundedGlassDisplayCounter1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Rounded Glass Display Counter 2/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_RoundedGlassDisplayCounter2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Seahorse Coffee Display Counter 1/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_SeahorseCoffeeDisplayCounter1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Seahorse Coffee Display Counter 2/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_SeahorseCoffeeDisplayCounter2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Shop Display Counter
+	{
+		Base.Cigarettes=2,
+		Result:Adm_ShopDisplayCounter,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe White Display Counter 1/3
+	{
+		Base.Cigarettes=1,
+		Result:Adm_WhiteDisplayCounter1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe White Display Counter 2/3
+	{
+		Base.Cigarettes=1,
+		Result:Adm_WhiteDisplayCounter2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe White Display Counter 3/3
+	{
+		Base.Cigarettes=1,
+		Result:Adm_WhiteDisplayCounter3,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Greene's Grocery Shelves 1/4
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GreenesGroceryShelves1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Greene's Grocery Shelves 2/4
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GreenesGroceryShelves2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Greene's Grocery Shelves 3/4
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GreenesGroceryShelves3,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Greene's Grocery Shelves 4/4
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GreenesGroceryShelves4,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Glass Corner Display Counter
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GlassCornerDisplayCounter,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Glass Display 1/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GlassDisplay1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Glass Display 2/2
+	{
+		Base.Cigarettes=2,
+		Result:Adm_GlassDisplay2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Popsicle Fridge 1/2
+	{
+		Base.Cigarettes=6,
+		Result:Adm_PopsicleFridge2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Popsicle Fridge 2/2
+	{
+		Base.Cigarettes=6,
+		Result:Adm_PopsicleFridge1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Red Fridge
+	{
+		Base.Cigarettes=3,
+		Result:Adm_RedFridge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Red Oven
+	{
+		Base.Cigarettes=3,
+		Result:Adm_RedOven,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Steel Fridge
+	{
+        Base.Cigarettes=6,
+		Result:Adm_SteelFridge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe White Clothing Dryer
+	{
+		Base.Cigarettes=8,
+		Result:Adm_WhiteClothingDryer,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe White Fancy Shelves
+	{
+		Base.Cigarettes=3,
+		Result:Adm_WhiteFancyShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe White File Cabinet
+	{
+		Base.Cigarettes=1,
+		Result:Adm_WhiteFileCabinet,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe White Fridge
+	{
+		Base.Cigarettes=2,
+		Result:Adm_WhiteFridge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe White Standing Sink
+	{
+		Base.Cigarettes=2,
+		Result:Adm_WhiteStandingSink,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe White Wall Shelves
+	{
+		Base.Cigarettes=2,
+		Result:Adm_WhiteWallShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe White Washing Machine
+	{
+		Base.Cigarettes=8,
+		Result:Adm_WhiteWashingMachine,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+		recipe Wooden Shop Shelves
+	{
+		Base.Cigarettes=5,
+		Result:Adm_WoodenShopShelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+
+/********************* Shop Furniture ************************************************/
+	recipe Ammo Pallet (50 Capacity)
+	{
+		Base.Cigarettes=3,
+		Result:APB_Ammo_Pallet,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Modern Gun Rack Black (70 Capacity)
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Result:APB_ModernGunRack_Black,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Modern Gun Rack Green (70 Capacity)
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Result:APB_ModernGunRack_Green,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Antique Gun Rack (40 Capacity, Inside Only)
+	{ 
+		Base.Cigarettes=3,
+		Result:APB_AntiqueGunRack,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Ammo Pallet Cans (50 Capacity)
+	{
+		Base.Cigarettes=3,
+		Result:APB_Ammo_Pallet_Cans,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Pallet of Boxes (50 Capacity)
+	{
+		Base.Cigarettes=3,
+		Result:APB_Pallet_of_Boxes,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Medical Cage (50 Capacity)
+	{
+		Base.Cigarettes=8,
+		Result:APB_Medical_Cage,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Medical Cabinet (50 Capacity)
+	{
+		Base.Cigarettes=8,
+		Result:APB_Medical_Cabinet,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Rolling Storage Cart (20 Capacity)
+	{
+		Base.Cigarettes=4,
+		Result:APB_Rolling_Cart,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Workbench with Pegboard (50 Capacity)
+	{
+		Base.Cigarettes=4,
+		Result:APB_Pegboard_Workbench,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Safe (100 Capacity)
+	{
+		Base.Cigarettes=6,
+		Result:APB_Safe,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Tool Box Big (75 Capacity)
+	{
+		Base.Cigarettes=6,
+		Result:APB_Tool_Box_Big,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Tool Box Table (25 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Tool_Box_Table,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Single Metal Shelves (50 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Single_Metal_Shelves,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Metal Cabinet with Red Doors (55 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Metal_Cabinet_Red_Doors,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Prop LMG
+	{
+		Base.Cigarettes=3,
+		Result:APB_Prop_LMG,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Prop Red Punching
+	{
+		Base.Cigarettes=3,
+		Result:APB_Prop_Red_Punching,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Prop Black Punching
+	{
+		Base.Cigarettes=3,
+		Result:APB_Prop_Black_Punching,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Prop Vise Machine
+	{
+		Base.Cigarettes=3,
+		Result:APB_Prop_Vise_Machine,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Prop Jigsaw
+	{
+		Base.Cigarettes=3,
+		Result:APB_Prop_Jigsaw,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Prop Press Machine
+	{
+		Base.Cigarettes=3,
+		Result:APB_Prop_Press_Machine,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Labeled Metal Shelves 1/2 (50 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Labeled_Metal_Shelves1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Labeled Metal Shelves 2/2 (50 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Labeled_Metal_Shelves2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Military Crate 1 (35 Capacity )
+	{
+		Base.Cigarettes=3,
+		Result:APB_Military_Crate_1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Military Pallet White Boxes (50 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_White_Box_Pallet,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Military Pallet Brown Boxes (50 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Brown_Box_Pallet,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Obsolete Gun Locker (50 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Obsolete_Gun_Locker,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Vault-tec Fridge
+	{
+		Base.Cigarettes=5,
+		Result:APB_Vault_Fridge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Single Metal Wood Shelf (50 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Metal_Wood_Shelf,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Wood Storage Table 1/2 (35 Capacity)
+	{
+		Base.Cigarettes=3,
+		Result:APB_Wood_Storage_Table1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Wood Storage Table 2/2 (35 Capacity)
+	{
+		Base.Cigarettes=3,
+		Result:APB_Wood_Storage_Table2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Military Wooden Box (40 Capacity)
+	{
+		Base.Cigarettes=4,
+		Result:APB_Military_Wooden_Box,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Vault Tech Book Box (35 Capacity)
+	{
+		Base.Cigarettes=3,
+		Result:APB_VaultTec_Book_Box,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Metal Gun Locker (100 Capacity)
+	{
+		Base.Cigarettes=3,
+		Result:APB_Metal_Gun_Locker,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Glass Gun Locker (100 Capacity)
+	{
+		Base.Cigarettes=8,
+		Result:APB_Glass_Gun_Locker,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Wine Rack 1/2 (45 Capacity)
+	{
+		Base.Cigarettes=4,
+		Result:APB_Big_Wine_Rack1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Wine Rack 2/2 (45 Capacity)
+	{
+		Base.Cigarettes=4,
+		Result:APB_Big_Wine_Rack2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Double Metal Wood Shelves 1/2 (50 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Double_Metal_Wood_Shelves1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Double Metal Wood Shelves 2/2 (50 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Double_Metal_Wood_Shelves2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Vaultec Big Fridge 1/3 (80 Capacity)
+	{
+		Base.Cigarettes=2,
+		Result:APB_Vaultec_Big_Fridge1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Vaultec Big Fridge 2/3 (80 Capacity)
+	{
+		Base.Cigarettes=8,
+		Result:APB_Vaultec_Big_Fridge2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Vaultec Big Fridge 3/3 (80 Capacity)
+	{
+		Base.Cigarettes=2,
+		Result:APB_Vaultec_Big_Fridge3,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Wheelie Bin (20 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Wheelie_Bin,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Storage Rack 1/2 (35 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Storage_Rack1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Storage Rack 2/2 (35 Capacity)
+	{
+		Base.Cigarettes=5,
+		Result:APB_Storage_Rack2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Retro Fridge
+	{
+		Base.Cigarettes=3,
+		Result:APB_Retro_Fridge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Pink Fridge
+	{
+		Base.Cigarettes=3,
+		Result:APB_Pink_Fridge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Coffee Microwave
+	{
+		Base.Cigarettes=3,
+		Result:APB_Coffee_Microwave,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Retro Microwave
+	{
+		Base.Cigarettes=3,
+		Result:APB_Small_Microwave,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Jack Daniels Fridge
+	{
+		Base.Cigarettes=6,
+		Result:APB_Jack_Daniel_Fridge,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe 70's Oven
+	{
+		Base.Cigarettes=3,
+		Result:APB_70s_Oven,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Prop Flower Shelf
+	{
+		Base.Cigarettes=3,
+		Result:APB_Prop_Flower_Shelf,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Prop Greenhouse Plant
+	{
+		Base.Cigarettes=3,
+		Result:APB_Prop_Greenhouse_Plant,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Prop Sakura Screen 1/2
+	{
+		Base.Cigarettes=3,
+		Result:APB_Sakura_Screen1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Prop Sakura Screen 2/2
+	{
+		Base.Cigarettes=3,
+		Result:APB_Sakura_Screen2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Orange Tape Drive (10 Capactiy)
+	{
+		Base.Cigarettes=3,
+		Result:APB_Orange_Audio,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Blue Tape Drive (10 Capactiy)
+	{
+		Base.Cigarettes=3,
+		Result:APB_Blue_Audio,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Post Lantern
+	{
+		Base.Cigarettes=2,
+		Result:APB_Post_Lantern,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Stick Lantern
+	{
+		Base.Cigarettes=2,
+		Result:APB_Stick_Lantern,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+	recipe Stone Lantern
+	{
+		Base.Cigarettes=2,
+		Result:APB_Stone_Lantern,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Furniture,
+	}
+}

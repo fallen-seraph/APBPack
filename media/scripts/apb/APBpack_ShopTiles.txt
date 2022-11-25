@@ -1,0 +1,571 @@
+module APBpack
+{
+
+    item APB_AntiqueGunRack
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 5,
+        DisplayName		= Antique Gun Rack,
+        WorldObjectSprite	= damiao_sign_01_16,
+    }
+	item APB_ModernGunRack_Black
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 5,
+        DisplayName		= Modern Gun Rack Black,
+        WorldObjectSprite	= damiao_tile_01_16,
+    }
+	item APB_ModernGunRack_Green
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 5,
+        DisplayName		= Modern Gun Rack Green,
+        WorldObjectSprite	= damiao_tile_01_20,
+    }
+	item APB_Ammo_Pallet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 3,
+        DisplayName		= Ammo Pallet,
+        WorldObjectSprite	= Union_Pallets_01_7,
+    }
+    item APB_Ammo_Pallet_Cans
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 3,
+        DisplayName		= Ammo Pallet Cans,
+        WorldObjectSprite	= Union_Pallets_01_15,
+    }
+    item APB_Food_Pallet_Cans
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 3,
+        DisplayName		= Food Pallet Cans,
+        WorldObjectSprite	= Union_Pallets_01_11,
+    }
+    item APB_Food_Pallet_Boxes
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 3,
+        DisplayName		= Food Pallet Boxes,
+        WorldObjectSprite	= Union_Pallets_01_4,
+    }
+    item APB_Pallet_of_Boxes
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 3,
+        DisplayName		= Pallet of Boxes,
+        WorldObjectSprite	= furniture_storage_ddd_01_7,
+    }
+    item APB_Medical_Cage
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 10,
+        DisplayName		= Medical Cage,
+        WorldObjectSprite	= damiao_tile_02_25,
+    }
+    item APB_Medical_Cabinet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 10,
+        DisplayName		= Medical Cabinet,
+        WorldObjectSprite	= damiao_tile_02_27,
+    }
+    item APB_Rolling_Cart
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 5,
+        DisplayName		= Rolling Storage Cart,
+        WorldObjectSprite	= damiao_tile_01_0,
+    }
+    item APB_Pegboard_Workbench
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 8,
+        DisplayName		= Workbench with Pegboard,
+        WorldObjectSprite	= damiao_tile_01_4,
+    }
+    item APB_Safe
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 30,
+        DisplayName		= Safe,
+        WorldObjectSprite	= DylansRandomFurniture01_8,
+    }
+    item APB_Tool_Box_Big
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 12,
+        DisplayName		= Tool Box Big,
+        WorldObjectSprite	= DylansRandomFurniture01_10,
+    }
+    item APB_Tool_Box_Table
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 10,
+        DisplayName		= Tool Box Table,
+        WorldObjectSprite	= DylansRandomFurniture01_12,
+    }
+    item APB_Single_Metal_Shelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 10,
+        DisplayName		= Single Metal Shelves,
+        WorldObjectSprite	= furniture_storage_ddd_01_15,
+    }
+    item APB_Metal_Cabinet_Red_Doors
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 10,
+        DisplayName		= Metal Cabinet with Red Doors,
+        WorldObjectSprite	= DylanRandomAssetPack4_8,
+    }
+    item APB_Target_Prop
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 1,
+        DisplayName		= Target Prop,
+        WorldObjectSprite	= BMyers_23,
+    }
+    item APB_Prop_LMG
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= .5,
+        DisplayName		= Prop Rack Gun,
+        WorldObjectSprite	= damiao_tile_01_15,
+    }
+    item APB_Prop_Red_Punching
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 5,
+        DisplayName		= Prop Red Punching Bag,
+        WorldObjectSprite	= DylansRandomFurniture02_12,
+    }
+    item APB_Prop_Black_Punching
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 5,
+        DisplayName		= Prop Black Punching Bag,
+        WorldObjectSprite	= DylansRandomFurniture02_13,
+    }
+    item APB_Prop_Vise_Machine
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 8,
+        DisplayName		= Prop Vise Machine,
+        WorldObjectSprite	= DylansRandomFurniture01_24,
+    }
+    item APB_Prop_Jigsaw
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 8,
+        DisplayName		= Prop Jigsaw,
+        WorldObjectSprite	= DylansRandomFurniture01_22,
+    }
+    item APB_Prop_Press_Machine
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 8,
+        DisplayName		= Prop Press Machine,
+        WorldObjectSprite	= DylansRandomFurniture01_17,
+    }
+    item APB_Labeled_Metal_Shelves1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 5,
+        DisplayName		= Labeled Metal Shelves1,
+        WorldObjectSprite	= TTools_18,
+    }
+    item APB_Labeled_Metal_Shelves2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 5,
+        DisplayName		= Labeled Metal Shelves2,
+        WorldObjectSprite	= TTools_19,
+    }
+    item APB_Military_Crate_1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 2,
+        DisplayName		= Military Crate 1,
+        WorldObjectSprite	= Vaulttec_3_26,
+    }
+    item APB_White_Box_Pallet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 2,
+        DisplayName		= Military Pallet White Boxes,
+        WorldObjectSprite	= Vaulttec_4_51,
+    }
+    item APB_Brown_Box_Pallet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 2,
+        DisplayName		= Military Pallet Brown Boxes,
+        WorldObjectSprite	= Vaulttec_4_48,
+    }
+    item APB_Obsolete_Gun_Locker
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 10,
+        DisplayName		= Obsolete Gun Locker,
+        WorldObjectSprite	= Vaulttec_2_6,
+    }
+    item APB_Vault_Fridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 8,
+        DisplayName		= Vault-tec Fridge,
+        WorldObjectSprite	= Vaulttec_1_10,
+    }
+    item APB_Metal_Wood_Shelf
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 3,
+        DisplayName		= Metal Wood Shelf,
+        WorldObjectSprite	= Vaulttec_6_40,
+    }
+    item APB_Wood_Storage_Table1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 2,
+        DisplayName		= Wood Storage Table 1,
+        WorldObjectSprite	= Vaulttec_1_24,
+    }
+    item APB_Wood_Storage_Table2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 2,
+        DisplayName		= Wood Storage Table 2,
+        WorldObjectSprite	= Vaulttec_1_25,
+    }
+    item APB_Military_Wooden_Box
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 1,
+        DisplayName		= Military Wooden Box,
+        WorldObjectSprite	= Vaulttec_5_8,
+    }
+    item APB_VaultTec_Book_Box
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 1,
+        DisplayName		= Vault Tech Book Box,
+        WorldObjectSprite	= Vaulttec_3_29,
+    }
+    item APB_Metal_Gun_Locker
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 15,
+        DisplayName		= Metal Gun Locker,
+        WorldObjectSprite	= Vaulttec_3_48,
+    }
+    item APB_Glass_Gun_Locker
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 15,
+        DisplayName		= Glass Gun Locker,
+        WorldObjectSprite	= Vaulttec_3_35,
+    }
+    item APB_Big_Wine_Rack1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 4,
+        DisplayName		= Wine Rack,
+        WorldObjectSprite	= Vaulttec_2_36,
+    }
+    item APB_Big_Wine_Rack2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 4,
+        DisplayName		= Wine Rack,
+        WorldObjectSprite	= Vaulttec_2_37,
+    }
+    item APB_Double_Metal_Wood_Shelves1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 4,
+        DisplayName		= Double Metal Wood Shelves,
+        WorldObjectSprite	= Vaulttec_6_42,
+    }
+    item APB_Double_Metal_Wood_Shelves2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 4,
+        DisplayName		= Double Metal Wood Shelves,
+        WorldObjectSprite	= Vaulttec_6_43,
+    }
+    item APB_Vaultec_Big_Fridge1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 8,
+        DisplayName		= Vaultec Big Fridge,
+        WorldObjectSprite	= Vaulttec_5_29,
+    }
+    item APB_Vaultec_Big_Fridge2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 8,
+        DisplayName		= Vaultec Big Fridge,
+        WorldObjectSprite	= Vaulttec_5_30,
+    }
+    item APB_Vaultec_Big_Fridge3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 8,
+        DisplayName		= Vaultec Big Fridge,
+        WorldObjectSprite	= Vaulttec_5_31,
+    }
+    item APB_Wheelie_Bin
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 12,
+        DisplayName		= Wheelie Bin,
+        WorldObjectSprite	= Vaulttec_6_16,
+    }
+    item APB_Storage_Rack1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 5,
+        DisplayName		= Storage Rack,
+        WorldObjectSprite	= Vaulttec_1_28,
+    }
+    item APB_Storage_Rack2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 5,
+        DisplayName		= Storage Rack,
+        WorldObjectSprite	= Vaulttec_1_29,
+    }
+    item APB_Retro_Fridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 10,
+        DisplayName		= Retro Fridge,
+        WorldObjectSprite	= Vaulttec_6_4,
+    }
+    item APB_Pink_Fridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 10,
+        DisplayName		= Pink Fridge,
+        WorldObjectSprite	= Vaulttec_5_43,
+    }
+    item APB_Coffee_Microwave
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 10,
+        DisplayName		= Retro Microwave,
+        WorldObjectSprite	= Vaulttec_5_40,
+    }
+    item APB_Small_Microwave
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 10,
+        DisplayName		= Retro Microwave,
+        WorldObjectSprite	= Vaulttec_5_33,
+    }
+    item APB_Jack_Daniel_Fridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 10,
+        DisplayName		= Jack Daniel Fridge,
+        WorldObjectSprite	= Vaulttec_5_49,
+    }
+    item APB_70s_Oven
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 10,
+        DisplayName		= 70's Oven,
+        WorldObjectSprite	= Vaulttec_5_10,
+    }
+    item APB_Prop_Greenhouse_Plant
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 3,
+        DisplayName		= Prop Greenhouse Plant,
+        WorldObjectSprite	= Vaulttec_2_56,
+    }
+    item APB_Prop_Flower_Shelf
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 3,
+        DisplayName		= Prop Flower Shelf,
+        WorldObjectSprite	= Vaulttec_5_63,
+    }
+    item APB_Sakura_Screen1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 3,
+        DisplayName		= Sakura Screen,
+        WorldObjectSprite	= Vaulttec_6_14,
+    }
+    item APB_Sakura_Screen2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 3,
+        DisplayName		= Sakura Screen,
+        WorldObjectSprite	= Vaulttec_6_15,
+    }
+    item APB_Orange_Audio
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 3,
+        DisplayName		= Orange Audio,
+        WorldObjectSprite	= Vaulttec_4_28,
+    }
+    item APB_Blue_Audio
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 3,
+        DisplayName		= Blue Audio,
+        WorldObjectSprite	= Vaulttec_4_26,
+    }
+    item APB_Post_Lantern
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 3,
+        DisplayName		= Post Lantern,
+        WorldObjectSprite	= Vaulttec_6_36,
+    }
+    item APB_Stick_Lantern
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 3,
+        DisplayName		= Stick Lantern,
+        WorldObjectSprite	= Vaulttec_6_57,
+    }
+    item APB_Stone_Lantern
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          = 15,
+        DisplayName		= Stone Lantern,
+        WorldObjectSprite	= Vault_8_0,
+    }
+}

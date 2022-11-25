@@ -1,0 +1,310 @@
+module Base
+module CigaretteMod
+
+{
+	
+/********************* Shop Survival *************************************/	
+
+		recipe Beef Jerky
+	{
+		Base.Cigarettes=1,
+		Result:BeefJerky,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Survival,
+	}
+		recipe Water Bottle
+	{
+		Base.Cigarettes=1,
+		Result:WaterBottleFull,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Survival,
+	}
+		recipe Adhesive Bandages
+	{
+		CigaretteMod.CigarettesOne=10,
+		Result:Bandaid,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Survival,
+	}	
+		recipe Suture Needle
+	{
+		Base.Cigarettes=1,
+		Result:SutureNeedle,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Survival,
+	}
+	
+		recipe Smoke Bomb
+	{
+		Base.Cigarettes=4,
+		Result:SmokeBomb,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Survival,
+	}
+	
+/********************* Shop Hardware *************************************/	
+
+		recipe Propane Tank
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=4,
+		Result:PropaneTank,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Hardware,
+	}
+		recipe Industrial Propane Tank
+	{
+		CigaretteMod.CigaretteCarton=4,
+		Result:LargePropaneTank,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Hardware,
+	}
+		recipe Huge Propane Tank
+	{
+		CigaretteMod.CigaretteCarton=44,
+		Result:HugePropaneTank,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Hardware,
+	}
+		recipe Box of Nails
+	{
+		Base.Cigarettes=2,
+		Result:NailsBox,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Hardware,
+	}
+
+		recipe Box of Screws
+	{
+		Base.Cigarettes=2,
+		Result:ScrewsBox,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Hardware,
+	}
+		recipe Empty Jar
+	{
+		Base.Cigarettes=1,
+		CigaretteMod.CigarettesOne=3,
+		Result:BoxOfJars,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Hardware,
+	}
+
+/********************* Shop Premium Market *************************************/
+
+		recipe Premium Tech. TV
+	{
+		CigaretteMod.CigaretteCarton=6,
+		Base.Cigarettes=4,
+		Result:TvWideScreen,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Premium Market,
+	}
+
+		recipe Premium Tech. Ham Radio
+	{
+		CigaretteMod.CigaretteCarton=6,
+		Base.Cigarettes=4,
+		Result:HamRadio1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Premium Market,
+	}
+
+		recipe Egg Carton
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Result:EggCarton,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Premium Market,
+	}
+	
+		recipe Milk
+	{
+		Base.Cigarettes=6,
+		Result:Milk,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Premium Market,
+	}
+	
+		recipe Salt
+	{
+		Base.Cigarettes=6,
+		Result:Salt,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Premium Market,
+	}
+		recipe Pepper
+	{
+		Base.Cigarettes=6,
+		Result:Pepper,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Premium Market,
+	}
+
+/********************* Shop Unique Market *************************************/
+
+	recipe 250 Unit Military Crate
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Result: White_Military_Crate2,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe 500 Unit Military Crate
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=5,
+		Result: Blue_Military_Crate3,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe 750 Unit Military Crate
+	{
+		CigaretteMod.CigaretteCarton=2,
+		Result: Red_Military_Crate4,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe Knight Loot Box (Set of armor with sword)
+	{
+		CigaretteMod.CigaretteCarton=15,
+		Result: Knight_Loot_Box,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe Pistol Loot Box
+	{
+		Base.Cigarettes=5,
+		Result: Pistol_Loot_Box,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe Rifle Loot Box
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Result: Rifle_Loot_Box,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe Shotgun Loot Box
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=5,
+		Result: Shotgun_Loot_Box,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe SMG Loot Box
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Result: SMG_Loot_Box,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe Pistol Ammo Loot Box
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Result: Pistol_Ammo_Loot_Box,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe Rifle Ammo Loot Box
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=5,
+		Result: Rifle_Ammo_Loot_Box,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe Shotgun Ammo Loot Box
+	{
+		CigaretteMod.CigaretteCarton=2,
+		Result: Shotgun_Ammo_Loot_Box,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+}

@@ -1,0 +1,138 @@
+module Base
+module CigaretteMod
+
+{
+
+/********************* Shop Event Rewards ************************************************/
+
+	recipe 5 Cartons
+	{
+		Base.ChallengeCoin=1,
+		Result:CigaretteMod.CigaretteCarton=5,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+	recipe ECTO-1
+	{
+		Base.ChallengeCoin=2,
+		Result:PinkSlip.ECTO1,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+	recipe 92 Wrangler Jurassic Park
+	{
+		Base.ChallengeCoin=2,
+		Result:PinkSlip.92wranglerjurassic,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+	recipe 93 Explorer Jurassic Park
+	{
+		Base.ChallengeCoin=2,
+		Result:PinkSlip.93explorerjurassic,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+	recipe M12 Warthog
+	{
+		Base.ChallengeCoin=4,
+		Result:PinkSlip.m12warthog,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+	recipe M12 Warthog Transport
+	{
+		Base.ChallengeCoin=4,
+		Result:PinkSlip.m12transport,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+	recipe M12 Warthog Police
+	{
+		Base.ChallengeCoin=4,
+		Result:PinkSlip.m12police,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+	recipe MuttCutts Van
+	{
+		Base.ChallengeCoin=3,
+		Result:APBpack.86FordE150dnd,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+	recipe Mystery Machine
+	{
+		Base.ChallengeCoin=2,
+		Result:APBpack.86FordE150mm,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+	recipe 82 Jeep J10 Mellow Yellow
+	{
+		Base.ChallengeCoin=2,
+		Result:APBpack.82jeepJ10t,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Vehicles,
+	}
+	recipe M134 Vulcan
+	{
+		Base.ChallengeCoin=1,
+		Result:Base.Vulcan,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+	recipe M134 Vulcan Magazine
+	{
+		Base.ChallengeCoin=1,
+		Result:Base.VulcanClip,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+	recipe 2000 unit Storage Crate
+	{
+		Base.ChallengeCoin=2,
+		Result:Black_Military_Crate6,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+}

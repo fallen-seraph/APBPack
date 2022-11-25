@@ -1,0 +1,32 @@
+module Base
+{
+	item ATMReceiver
+	{
+		DisplayCategory 	= Furniture,
+		Type				= Normal,
+		Icon				= ATMReceiver,
+		Weight		  		= 30,
+		DisplayName			= KSSA Receiver,
+		WorldStaticModel	= ATM,
+	}
+
+	item ATMReceiver2
+	{
+		DisplayCategory 	= Furniture,
+		Type				= Normal,
+		Icon				= ATMReceiver2,
+		Weight		  		= 30,
+		DisplayName			= Mechanics Receiver,
+		WorldStaticModel	= ATM-mech,
+	}
+
+	item ChallengeCoin
+	{
+		Count	=	1,
+		Weight	=	0.01,
+		CanBeEquipped = FALSE,
+		Type	=	Normal,
+		DisplayName	=	Challenge Coin,
+		Icon	=	challenge_coin,
+	}
+}

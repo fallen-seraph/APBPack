@@ -1,0 +1,340 @@
+module APBpack
+{
+	imports
+	{
+		Base
+	}
+ 	recipe Make Corn Flour
+    {
+		keep MortarPestle,
+		Corn=5,		
+		Result:Cornflour=1,
+		Time:300.0,
+		Category:Survivalist,
+		OnGiveXP:Recipe.OnGiveXP.Cooking50,
+    }
+	 	recipe Make Cornmeal
+    {
+		keep MortarPestle,
+		Corn=5,		
+		Result:Cornmeal=1,
+		Time:250.0,
+		Category:Survivalist,
+		OnGiveXP:Recipe.OnGiveXP.Cooking50,
+    }
+	recipe Make Soap
+	{
+		keep MortarPestle,
+		Water=5,
+		BakingSoda=1,
+		Butter/OilVegetable/OilOlive/Comfrey/LemonGrass/BlackSage/Plantain=1,
+		
+		Result:Soap2=2,
+		Time:250.0,
+		Category:Survivalist,
+		SkillRequired:PlantScavenging=1,
+		OnGiveXP:Recipe.OnGiveXP.None,
+    }
+ 	recipe Make Notebook
+    {
+		Wire=1,
+		SheetPaper2=8,
+				
+		Result:Notebook,
+		Time:200.0,
+		Category:Survivalist,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.None,
+    }	 
+	recipe Make Padlock
+    {
+		keep WeldingMask,
+		BlowTorch=1,
+		ScrapMetal=2,
+		WeldingRods=1,
+				
+		Result:Padlock,
+		Time:250.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:BlowTorch,
+		SkillRequired:MetalWelding=3,		
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding01,
+    }
+	recipe Dismantle Classic Watch
+    {	
+		keep [Recipe.GetItemTypes.Screwdriver],	
+		WristWatch_Right_ClassicBlack/WristWatch_Left_ClassicBlack/WristWatch_Right_ClassicBrown/WristWatch_Left_ClassicBrown/WristWatch_Right_ClassicMilitary/WristWatch_Left_ClassicMilitary/WristWatch_Right_ClassicGold/WristWatch_Left_ClassicGold,     
+
+		Result:ScrapMetal=1,
+		Time:75.0,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding01,
+		Category:Electrical,
+		AnimNode:Disassemble,
+		CanBeDoneFromFloor:false,
+    }
+	recipe Make Hinge
+    {
+		keep WeldingMask,
+		BlowTorch;2,
+		WeldingRods=1,
+		ScrapMetal=4,
+		
+		Result:Hinge=1,
+		Time:250.0,
+		Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding03,
+    }		 
+	recipe Make Door Knob
+    {
+		keep WeldingMask,
+		BlowTorch;2,
+		WeldingRods=1,
+		ScrapMetal=4,
+		
+		Result:Doorknob=1,
+		Time:250.0,
+		Category:Welding,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding03,
+    }
+	recipe Make LightBulb
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+		WineEmpty/WineEmpty2/WhiskeyEmpty/BeerEmpty/EmptyJar,
+		Radio.ElectricWire,
+		Aluminum,
+
+		Result:LightBulb,
+		Time:15.0,
+		Category:Electrical,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:MakePlaster,	
+    }
+	recipe Make Leather Belt
+	{
+		keep Needle/SutureNeedle,
+		keep Scissors,
+		LeatherStrips=6,
+		Thread=2,
+		Paperclip/Nails=1,
+
+		Result:Belt2,
+		Time:500.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		SkillRequired:Tailoring=2,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring05,
+    }
+	recipe Rip Underwear
+    {
+        Bra_Strapless_Black/Bra_Strapless_RedSpots/Bra_Strapless_White/Bra_Straps_Black/Bra_Straps_White/Bra_Strapless_AnimalPrint/Bra_Straps_AnimalPrint/Bra_Straps_FrillyBlack/Bra_Strapless_FrillyBlack/Bra_Straps_FrillyPink/Bra_Strapless_FrillyPink/Bra_Straps_FrillyRed/Bra_Strapless_FrillyRed/Underpants_Black/Underpants_RedSpots/Underpants_White/Underpants_AnimalPrint/FrillyUnderpants_Black/FrillyUnderpants_Pink/FrillyUnderpants_Red/Boxers_Hearts/Boxers_Silk_Black/Boxers_Silk_Red/Boxers_RedStripes/Boxers_White/Briefs_White/Briefs_AnimalPrints/Briefs_SmallTrunks_Black/Briefs_SmallTrunks_Blue/Briefs_SmallTrunks_Red/Garter/Corset_Black/Corset_Red/Corset/Briefs_SmallTrunks_WhiteTINT,
+
+        Result:RippedSheets,
+		Time:80.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		AnimNode:RipSheets,
+        Sound:ClothesRipping,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring01,		
+    }
+	recipe Rip Leather Item
+	{
+		keep Scissors,
+		HolsterSimple/HolsterDouble/Handbag/Purse/DogChew/Basketball/Football/Football2/SoccerBall/Wallet/Wallet2/Wallet3/Wallet4/Belt2,
+		
+		Result:LeatherStrips=2,
+		Time:180.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		AnimNode:RipSheets,
+		Sound:ClothesRipping,
+		OnGiveXP:Recipe.OnGiveXP.Tailoring01,
+	}
+	recipe Make Jar Lids from Aluminum
+	{
+		keep [Recipe.GetItemTypes.Hammer],
+		Aluminum=1,
+		
+		Result:JarLid=4,
+		Time:250.0,
+		Category:Welding,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+		Sound:Hammering,
+		SkillRequired:MetalWelding=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding05,
+	}
+	recipe Make Needle
+    {
+		keep [Recipe.GetItemTypes.Hammer],
+		Paperclip/Nails,
+		
+		Result:Needle,
+		Time:200.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:false,
+		OnGiveXP:Recipe.OnGiveXP.None,
+    }
+	recipe Ripped Sheets to Sheet Rope
+	{
+		RippedSheets/RippedSheetsDirty/DenimStrips/DenimStripsDirty=3,
+
+		Result:SheetRope,
+		Time:10.0,
+		Category:Tailoring,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+	}
+	recipe Convert W460 Wide Tire
+	{
+		OldTire2/NormalTire2/ModernTire2,
+		SheetMetal=1,
+		Screws=1,
+		keep LugWrench,
+
+		Result:W460NormalTire2,
+		Time:850.0,
+		Category:W460,
+		SkillRequired:Mechanics=4,
+	}
+	recipe Make Flies Cure
+	{
+        GardeningSprayEmpty,
+        Water=3,
+		CigaretteMod.CigarettesOne=5,
+
+		Result:GardeningSprayCigarettes,
+		Time:40.0,
+		Category:Farming,
+		NeedToBeLearn:true,
+	}
+
+	/****************************************** DIY Engines ******************************************/
+
+	recipe Make Engine Parts
+    {
+	keep WeldingMask,      				
+	BlowTorch=20, 				
+	WeldingRods=10, 				
+	Screws=40, 					
+	ScrapMetal=20,				
+	keep Hammer/BallPeenHammer,			
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			
+	Result:EngineParts=20, 				
+	SkillRequired:MetalWelding=3,			
+    Time:500.0,					
+	AnimNode:BlowTorchFloor,
+	Prop1:BlowTorch,				
+	Prop2:EngineParts,
+    }
+	
+    recipe Make Engine Parts
+    {
+	DuctTape=16, 					
+	ScrapMetal=20, 					
+	Screws=100,					
+	keep Screwdriver, 				
+	keep Wrench, 					
+	keep PipeWrench,				
+	keep Hammer/BallPeenHammer, 			
+	keep Saw/GardenSaw, 				
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			
+	Result:EngineParts=20, 				
+	SkillRequired:Mechanics=2,			
+    Time:500.0,					
+	AnimNode:VehicleWorkOnTire, 				
+    Prop1:Wrench,					
+    Prop2:EngineParts,				
+    }
+
+	
+    recipe Make Engine Parts
+    {	
+	Aluminum=40, 					
+	ElectricWire=10, 				
+	ElectronicsScrap=10, 				
+	Screws=40,					
+	keep Screwdriver, 				
+	keep Wrench, 					
+	keep Saw/GardenSaw, 				
+	Category:AutoParts,	
+	CanBeDoneFromFloor:true, 			
+	Result:EngineParts=20, 				
+	SkillRequired:Electricity=2,			
+    Time:500.0,					
+	AnimNode:Disassemble, 				
+    Prop1:Screwdriver,				
+    Prop2:EngineParts,				
+    }
+
+	/************************************** Gun Dismantle ***********************************************/
+	
+	recipe Deconstruct Pistols
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+    	M9/CZ75/FN_57/Colt1911/AMT1911_Long/M9A3/CZ97B/FN_57_MK2/Colt_Kimber/AMT1911/Judge513_Long_45LC/B93R/PPK/CP33/Colt_Commander/Colt_Service45/Colt_Service38/Judge513_45LC/P226/Buckmark_Carbine/Buckmark/Buckmark_Long/Bersa85F/G21/G18/G34/G42/LCP380/BodyGuard380/M5906/M5238/M4506/ZIP22/Colt1903/Makarov/Makarov380/PB/Automag/APS/SW_327_357/M1911_Carbine/GP100_2_357/GP100_4_357/GP100_6_357/Rhino_60DS_357/Colt_Navy_1851/Taurus856/K6S_357/P220/XD4/XD9/M1936/M29_44_Carbine/HK4_380/HK4 22/MP9/MP45/DEagle/Luger/Luger_WW1/Luger_Carbine/VP70/VP70_Stock/HK_MK23/HK_USP/HK_USP_Match/DEagle_Long,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+		AllowDestroyedItem      : true,
+        Result           		: GunParts=1,
+		SkillRequired			: Aiming=1,
+        Time             		: 100.0,
+		OnTest					: Recipe.OnTest.NotFavourite,
+		OnGiveXP 				: Give2MWXP,
+		Category 		        : Scrapping,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+    }
+	recipe Deconstruct Shotguns/SMGs
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+    	SUB2000/KG9/Calico_M900_Fold/Calico_M950_Pistol/M1Carbine/M2Carbine/M635/M635S/M635SD/JW3_TTI_MPX/KRISS9_Stock/KRISS9_MLOK_Stock/BT9_Fold/UMP9_Stock/MP5_Fixed/MP5_Stock/MP5SD6_Fixed/MP5SD6_Stock/Aug9/MP7/Jatimatic/Sten/Sten_MK2/Sten_MK2SD/STAR_Z45_Stock/STAR_Z45_Fixed/VSS/ASVAL/K7_Stock/EVO_Fold/UZI/UZI_Wood/UZI_Micro/MAC10_Fold/KRISS_Stock/Thompson/Thompson_1928/M2Hyde/Model55_Fold/Model50/UMP45_Stock/Vz61_Fixed/Vz61_Fold/FN_P90/FN_PS90/MPA57DMG/MPA57DMG_Carbine/AKS74U/R11_87/M1897/SPAS12_Fixed/SPAS12_Fold/SPAS_15/M870_Wingmaster/M870_Police/M870_MCS/M870_CQB/M870 Breaching Pistol/M870 Express/VIPER_G2/AUTO_5/10855_Silver/Shorty_Pistol/A400/Ithaca_M37/MP133/MP133S_Pistol/TOZ194_Pistol/KS23/KS23_S_Pistol/Triple_Crown/Coachgun/M1887/DT11/TXS_804_410g/Terminator/TOZ106/M1014/M1014_Wick/Moss500_20/ROYAL_SXS/Colt1855/UTS15/SPAS_15/Saiga12_Tromix/Saiga12/Saiga12_Long/CAWS/KSG/KSG25/AA12/DAO12/M1208/M1212/M1216/SIX12/SIX12SD,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+		AllowDestroyedItem      : true,
+        Result           		: GunParts=3,
+		SkillRequired			: Aiming=2,
+        Time             		: 150.0,
+		OnTest					: Recipe.OnTest.NotFavourite,
+		OnGiveXP 				: Give4MWXP,
+		Category 		        : Scrapping,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+    }
+	recipe Deconstruct Rifles
+    {
+		keep [Recipe.GetItemTypes.Screwdriver],
+    	SV_98/K14/SVD/SVDK/Mosin/MosinObrez_Pistol/Winchester1866/Win_1895/Marlin_1894_357/M1Carbine/M2Carbine/Commando/Ruger_No1_3006/M1903/Type38/Type99/M1/Savage12/MAS36/MAS44/MAS49/Marlin_M70/Cricket_22/Ruger_1022/Thompson_Center_3006/M40/M40A3/M46_Mauser/L96/WA2000/OTS_03_SVU/PSG1/MSG90/FAMAS/FAMAS_Felin/QBZ 95/F2000/Tavor/L85/L86/L22/ASVAL/VSS/K1DEV/K2_203/K2_C1/XM8Compact_Pistol/XM8/XM8LMG/FN_FNC/Type20/Type89/MK47/AK5C/MK18/H416/SCARL/G28/Ots14_1A_02/Ots14_4A/BAR/BAR_Monitor/G3/G33/LVOA_C/M14EBR/M14/SKS/ColtM16/M16A1/CAR15_Survival/ADAR/M4A1/Bush_XM15_Custom/MCX_Virtus/MCX_VirtusPatrol/MCX_Socom/G36/G36C/MINI14/AUG/Aug9/AR18/G11K3/M240/M60/G21LMG/MG42/M249/K3LMG/RPD/AK47/AKM/AK103/MD65_Stock/AKMS_Stock/,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+		AllowDestroyedItem      : true,
+        Result           		: GunParts=4,
+		SkillRequired			: Aiming=3,
+        Time             		: 200.0,
+		OnTest					: Recipe.OnTest.NotFavourite,
+		OnGiveXP 				: Give5MWXP,
+		Category 		        : Scrapping,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+    }
+}

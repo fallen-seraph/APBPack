@@ -1,0 +1,74 @@
+module Base
+module CigaretteMod
+{    
+    recipe Sell Gold Jewelry {
+        NoseStud_Gold/Necklace_Gold/NecklaceLong_Gold/NoseRing_Gold/Earring_LoopLrg_Gold/Earring_LoopMed_Gold/Earring_LoopSmall_Gold_Both/Earring_LoopSmall_Gold_Top/Earring_Stud_Gold/Ring_Right_MiddleFinger_Gold/Ring_Left_MiddleFinger_Gold/Ring_Right_RingFinger_Gold/Ring_Left_RingFinger_Gold/Bracelet_BangleRightGold/Bracelet_BangleLeftGold/Bracelet_ChainRightGold/Bracelet_ChainLeftGold/BellyButton_DangleGold/BellyButton_RingGold/BellyButton_StudGold/Necklace_GoldCrucifix/Necklace_B,
+        Result:CigaretteMod.CigarettesOne=2,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:3.0,
+        Category:Sell,
+    }
+    recipe Sell Silver jewelry{
+        Necklace_Silver/NecklaceLong_Silver/NoseRing_Silver/NoseStud_Silver/Earring_LoopLrg_Silver/Earring_LoopMed_Silver/Earring_LoopSmall_Silver_Both/Earring_LoopSmall_Silver_Top/Earring_Stud_Silver/Ring_Right_MiddleFinger_Silver/Ring_Left_MiddleFinger_Silver/Ring_Right_RingFinger_Silver/Ring_Left_RingFinger_Silver/Bracelet_BangleRightSilver/Bracelet_BangleLeftSilver/Bracelet_ChainRightSilver/Bracelet_ChainLeftSilver/BellyButton_DangleSilver/BellyButton_RingSilver/BellyButton_StudSilver/Necklace_SilverCrucifix,
+        Result:CigaretteMod.CigarettesOne=1,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:3.0,   
+        Category:Sell,
+    }
+    recipe Sell Rare jewelry{
+        Necklace_GoldDiamond/Necklace_SilverDiamond/NecklaceLong_GoldDiamond/NecklaceLong_SilverDiamond/Necklace_Choker_Diamond/Earring_Dangly_Diamond/Ring_Right_MiddleFinger_SilverDiamond/Ring_Left_MiddleFinger_SilverDiamond/Ring_Right_RingFinger_SilverDiamond/Ring_Left_RingFinger_SilverDiamond/Ring_Right_MiddleFinger_GoldDiamond/Ring_Left_MiddleFinger_GoldDiamond/Ring_Right_RingFinger_GoldDiamond/Ring_Left_RingFinger_GoldDiamond/Necklace_GoldRuby/Necklace_SilverSapphire/Necklace_Pearl/NecklaceLong_SilverEmerald/NecklaceLong_SilverSapphire/Necklace_Choker_Sapphire/Earring_Stone_Sapphire/Earring_Stone_Emerald/Earring_Stone_Ruby/Earring_Pearl/Earring_Dangly_Sapphire/Earring_Dangly_Emerald/Earring_Dangly_Ruby/Earring_Dangly_Pearl/Ring_Right_MiddleFinger_GoldRuby/Ring_Left_MiddleFinger_GoldRuby/Ring_Right_RingFinger_GoldRuby/Ring_Left_RingFinger_GoldRuby/BellyButton_DangleGoldRuby/BellyButton_DangleSilverDiamond/BellyButton_RingGoldDiamond/BellyButton_RingGoldRuby/BellyButton_RingSilverAmethyst/BellyButton_RingSilverDiamond/BellyButton_RingSilverRuby/BellyButton_StudGoldDiamond/BellyButton_StudSilverDiamond,
+        Result:CigaretteMod.CigarettesOne=2,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:3.0, 
+        Category:Sell,
+    }
+    recipe Sell Other Jewelry{
+        Necklace_Crucifix/Necklace_YingYang/NecklaceLong_Amber/Necklace_Choker_Amber/Bracelet_RightFriendshipTINT/Bracelet_LeftFriendshipTINT/Necklace_Choker/Locket/Necklace_DogTag,
+        Result:CigaretteMod.CigarettesOne=1,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:3.0,        
+        Category:Sell,
+    }
+    recipe Sell Glasses{ 
+        Glasses_Aviators/Glasses/Glasses_Normal/Glasses_Reading/Glasses_Shooting/Glasses_Sun/Glasses_SwimmingGoggles/CBX_OHI_1/CBX_OHI_2/CBX_OHI_3/CBX_OHI_4/CBX_OHI_5/CBX_OHI_6/CBX_OHI_7/CBX_OHI_8/CBX_Glasses_1/CBX_Glasses_2/CBX_Glasses_3/Glasses_GeneralIssue/Glasses_Napier/Glasses_ReadingBlack/GlassesPLL/GlassesPLLR/Glasses_Cheese/Glasses_AviatorsSunset,
+        Result:CigaretteMod.CigarettesOne=1,
+        OnGiveXP:Recipe.OnGiveXP.None,        
+        Time:3.0,          
+        Category:Sell, 
+    }
+    recipe Sell Watch{
+        WristWatch_Right_DigitalBlack/WristWatch_Right_ClassicBlack/WristWatch_Right_ClassicBrown/WristWatch_Right_ClassicGold/WristWatch_Right_DigitalDress/WristWatch_Right_DigitalRed/WristWatch_Right_ClassicMilitary/WristWatch_Left_DigitalBlack/WristWatch_Left_ClassicBlack/WristWatch_Left_ClassicBrown/WristWatch_Left_ClassicGold/WristWatch_Left_DigitalDress/WristWatch_Left_DigitalRed/WristWatch_Left_ClassicMilitary,
+        Result:CigaretteMod.CigarettesOne=1,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:3.0,        
+        Category:Sell,
+    }
+    recipe Sell Electronics{
+        Amplifier/Radio.RadioReceiver/Radio.RadioTransmitter,
+        Result:CigaretteMod.CigarettesOne=1,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:3.0,        
+        Category:Sell,
+    }
+    recipe Sell Crafted Timer{
+        TimerCrafted,
+        Result:CigaretteMod.CigarettesOne=7,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:3.0,        
+        Category:Sell,
+    }
+    recipe Sell Crafted Trigger/Noise Maker{
+        TriggerCrafted/NoiseTrap,
+        Result:CigaretteMod.CigarettesOne=5,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:3.0,        
+        Category:Sell,
+    }
+    recipe Change Old Money{
+        Money=1,
+        Result:CigaretteMod.CigarettesOne=1,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:3.0,        
+        Category:Sell,
+    }
+}

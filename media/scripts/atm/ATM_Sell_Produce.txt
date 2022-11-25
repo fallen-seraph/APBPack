@@ -1,0 +1,148 @@
+module Base
+module CigaretteMod
+{
+	recipe Sell Carrots{
+		Carrots=12,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Broccoli{
+		Broccoli=3,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Radish{
+		farming.RedRadish=10,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Strawberries{
+		farming.Strewberrie=16,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Tomato{
+		farming.Tomato=3,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Potato{
+		farming.Potato=5,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Cabbage{
+		farming.Cabbage=13,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Avocado{
+		Avocado=9,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell BellPepper{
+		BellPepper=3,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Corn{
+		Corn=3,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Eggplant{
+		Eggplant=4,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Leek{
+		Leek=13,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Lettuce{
+		Lettuce=13,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Onion{
+		Onion=3,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Watermelon{
+		Watermelon=2,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+	recipe Sell Zucchini{
+		Zucchini=2,
+		Result:CigaretteMod.Cigarettes=1,
+		Time:3.0,        
+		keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+		Category:Sell Produce,	
+	}
+}

@@ -1,0 +1,114 @@
+module APBpack
+{
+    item Manifest
+	{
+		DisplayCategory = Literature,
+		Weight = 0.01,
+		Type = Map,
+		DisplayName = Shipping Manifest,
+		Icon = Paper,
+		Tooltip = "A Northwest Checkpoint Manifest",
+		Map = APBpack_Manifest,
+		WorldStaticModel = SheetOfPaper,
+	}
+
+	/********************* Spawn Maps *************************************/
+
+    item Map_FoldCoffee
+	{
+		DisplayCategory = Literature,
+		Weight = 0.01,
+		Type = Map,
+		DisplayName = Coffee Stained Map,
+		Icon = Paper,
+		Tooltip = "A coffee stained map of the area.",
+		Map = Map_FoldCoffee,
+		WorldStaticModel = SheetOfPaper,
+	}
+    
+    item Map_FoldCrumple
+	{
+		DisplayCategory = Literature,
+		Weight = 0.01,
+		Type = Map,
+		DisplayName = Crumpled Map,
+		Icon = Paper,
+		Tooltip = "A crumpled map of the area.",
+		Map = Map_FoldCrumple,
+		WorldStaticModel = SheetOfPaper,
+	}
+
+    item Map_FoldCrumpleCoffee
+	{
+		DisplayCategory = Literature,
+		Weight = 0.01,
+		Type = Map,
+		DisplayName = Another Coffee Stained Map,
+		Icon = Paper,
+		Tooltip = "Another coffee stained map of the area.",
+		Map = Map_FoldCrumpleCoffee,
+		WorldStaticModel = SheetOfPaper,
+	}
+
+    item Map_FoldCrumpleCoffeeDirt
+	{
+		DisplayCategory = Literature,
+		Weight = 0.01,
+		Type = Map,
+		DisplayName = Stained and Crumpled Map,
+		Icon = Paper,
+		Tooltip = "A stained map of the area.",
+		Map = Map_FoldCrumpleCoffeeDirt,
+		WorldStaticModel = SheetOfPaper,
+	}
+
+    item Map_FoldCrumpleDirt
+	{
+		DisplayCategory = Literature,
+		Weight = 0.01,
+		Type = Map,
+		DisplayName = Dirty Crumpled Map,
+		Icon = Paper,
+		Tooltip = "A dirty map of the area.",
+		Map = Map_FoldCrumpleDirt,
+		WorldStaticModel = SheetOfPaper,
+	}
+
+	/********************* Event Orders *************************************/
+
+	item Mission_Orders5
+	{
+		DisplayCategory = Literature,
+		Weight = 0.01,
+		Type = Map,
+		DisplayName = Orders: Downtown LV,
+		Icon = Paper,
+		Tooltip = "Mission Orders",
+		Map = Mission_Orders5,
+		WorldStaticModel = SheetOfPaper,
+	}
+
+	/********************* Event Items *************************************/
+
+	item SPOPM_transformer
+    {
+        DisplayCategory = Electronics,
+        Weight = 10.0,
+        Type = Radio,
+        DisplayName = SPOPM Transformer,
+        Icon = SPOPMtransformer,
+        Tooltip = "A Single-phase overhead pole-mount transformer.",
+        WorldStaticModel = SPOPMtransformer,
+    }
+
+    item boiler
+    {
+        DisplayCategory = Electronics,
+        Weight = 150,
+        Type = Radio,
+        DisplayName = Boiler,
+        Icon = boiler,
+        Tooltip = "A boiler is a steel pressure vessel in which water under pressure is converted into steam by the application of combustion.",
+        WorldStaticModel = Boiler,
+    }
+}
