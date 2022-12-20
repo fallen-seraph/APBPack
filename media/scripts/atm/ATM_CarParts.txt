@@ -6,7 +6,8 @@ module CigaretteMod
 /********************* Shop Regular Parts *************************************/
 		recipe Performance Tire Type Standard
 	{
-		Base.Cigarettes=4,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=5,
 		Result:ModernTire1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -16,7 +17,8 @@ module CigaretteMod
 	}
 		recipe Performance Tire Type Sport
 	{
-		Base.Cigarettes=4,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=5,
 		Result:ModernTire3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -26,7 +28,8 @@ module CigaretteMod
 	}
 		recipe Performance Tire Type Heavy-Duty
 	{
-		Base.Cigarettes=5,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=6,
 		Result:ModernTire2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -37,7 +40,7 @@ module CigaretteMod
 
 		recipe Car Battery Type Standard
 	{
-		Base.Cigarettes=2,		
+		CigaretteMod.CigaretteCarton=1,		
 		Result:CarBattery1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -47,8 +50,7 @@ module CigaretteMod
 	}
 		recipe Car Battery Type Sport
 	{
-		Base.Cigarettes=2,
-		CigaretteMod.CigarettesOne=10,
+		CigaretteMod.CigaretteCarton=1,
 		Result:CarBattery3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -58,7 +60,8 @@ module CigaretteMod
 	}
 		recipe Car Battery Type Heavy-Duty
 	{
-		Base.Cigarettes=3,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=2,
 		Result:CarBattery2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -68,7 +71,7 @@ module CigaretteMod
 	}
 		recipe Front Door Type Standard
 	{
-		Base.Cigarettes=2,
+		CigaretteMod.CigaretteCarton=1,
 		Result:FrontCarDoor1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -78,7 +81,7 @@ module CigaretteMod
 	}
 		recipe Front Door Type Sport
 	{
-		Base.Cigarettes=2,
+		CigaretteMod.CigaretteCarton=1,
 		Result:FrontCarDoor3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -88,7 +91,8 @@ module CigaretteMod
 	}
 		recipe Front Door Type Heavy-Duty
 	{
-		Base.Cigarettes=2,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=3,
 		Result:FrontCarDoor2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -98,7 +102,7 @@ module CigaretteMod
 	}
 		recipe Rear Door Type Standard
 	{
-		Base.Cigarettes=2,
+		CigaretteMod.CigaretteCarton=1,
 		Result:RearCarDoor1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -108,9 +112,7 @@ module CigaretteMod
 	}
 		recipe Rear Door Type Sport
 	{
-		Base.Cigarettes=2,
-		Base.Cigarettes=2,
-		CigaretteMod.CigarettesOne=10,
+		CigaretteMod.CigaretteCarton=1,
 		Result:RearCarDoor3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -120,8 +122,8 @@ module CigaretteMod
 	}
 		recipe Rear Door Type Heavy-Duty
 	{
-		Base.Cigarettes=2,
-		Base.Cigarettes=5,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=3,
 		Result:RearCarDoor2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -131,7 +133,7 @@ module CigaretteMod
 	}
 		recipe Front Window Type Standard
 	{
-		Base.Cigarettes=3,
+		CigaretteMod.CigaretteCarton=1,
 		Result:FrontWindow1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -141,8 +143,7 @@ module CigaretteMod
 	}
 		recipe Front Window Type Sport
 	{
-		Base.Cigarettes=3,
-		CigaretteMod.CigarettesOne=10,
+		CigaretteMod.CigaretteCarton=1,
 		Result:FrontWindow3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -152,6 +153,7 @@ module CigaretteMod
 	}
 		recipe Front Window Type Heavy-Duty
 	{
+		CigaretteMod.CigaretteCarton=1,
 		Base.Cigarettes=3,
 		Result:FrontWindow2,
 		Time:60.0,
@@ -162,7 +164,7 @@ module CigaretteMod
 	}
 		recipe Rear Window Type Standard
 	{
-		Base.Cigarettes=3,
+		CigaretteMod.CigaretteCarton=1,
 		Result:RearWindow1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -172,8 +174,7 @@ module CigaretteMod
 	}
 		recipe Rear Window Type Sport
 	{
-		Base.Cigarettes=3,
-		CigaretteMod.CigarettesOne=10,
+		CigaretteMod.CigaretteCarton=1,
 		Result:RearWindow3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -183,6 +184,7 @@ module CigaretteMod
 	}
 		recipe Rear Window Type Heavy-Duty
 	{
+		CigaretteMod.CigaretteCarton=1,
 		Base.Cigarettes=3,
 		Result:RearWindow2,
 		Time:60.0,
@@ -193,7 +195,8 @@ module CigaretteMod
 	}
 		recipe Windshield Type Standard
 	{
-		Base.Cigarettes=5,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=3,
 		Result:Windshield1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -203,8 +206,8 @@ module CigaretteMod
 	}
 		recipe Windshield Type Sport
 	{
-		Base.Cigarettes=5,
-		CigaretteMod.CigarettesOne=10,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=3,
 		Result:Windshield3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -214,6 +217,7 @@ module CigaretteMod
 	}
 		recipe Windshield Type Heavy-Duty
 	{
+		CigaretteMod.CigaretteCarton=1,
 		Base.Cigarettes=6,
 		Result:Windshield2,
 		Time:60.0,
@@ -224,7 +228,7 @@ module CigaretteMod
 	}
 		recipe Rear Windshield Type Standard
 	{
-		Base.Cigarettes=5,
+		CigaretteMod.CigaretteCarton=1,
 		Result:RearWindshield1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -234,7 +238,7 @@ module CigaretteMod
 	}
 		recipe Rear Windshield Type Sport
 	{
-		Base.Cigarettes=5,
+		CigaretteMod.CigaretteCarton=1,
 		Result:RearWindshield3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -245,7 +249,8 @@ module CigaretteMod
 
 		recipe Rear Windshield Type Heavy-Duty
 	{
-		Base.Cigarettes=6,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=4,
 		Result:RearWindshield2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -256,7 +261,7 @@ module CigaretteMod
 
 		recipe Performance Muffler Type Standard
 	{
-		Base.Cigarettes=3,
+		Base.Cigarettes=8,
 		Result:ModernCarMuffler1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -267,8 +272,7 @@ module CigaretteMod
 
 		recipe Performance Muffler Type Sport
 	{
-		
-		Base.Cigarettes=3,
+		Base.Cigarettes=8,
 		Result:ModernCarMuffler3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -279,7 +283,8 @@ module CigaretteMod
 
 		recipe Performance Muffler Type Heavy-Duty
 	{
-		Base.Cigarettes=4,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=3,
 		Result:ModernCarMuffler2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -290,7 +295,7 @@ module CigaretteMod
 
 		recipe Performance Brake Type Standard
 	{
-		Base.Cigarettes=5,
+		Base.Cigarettes=8,
 		Result:ModernBrake1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -301,7 +306,7 @@ module CigaretteMod
 
 		recipe Performance Brake Type Sport
 	{
-		Base.Cigarettes=5,
+		Base.Cigarettes=8,
 		Result:ModernBrake3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -312,7 +317,7 @@ module CigaretteMod
 
 		recipe Performance Brake Type Heavy-Duty
 	{
-		Base.Cigarettes=6,
+		CigaretteMod.CigaretteCarton=1,
 		Result:ModernBrake2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -323,6 +328,7 @@ module CigaretteMod
 		recipe Big Gas Tank Type Standard
 	{
 		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=5,
 		Result:BigGasTank1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -334,6 +340,7 @@ module CigaretteMod
 	{
 		
 		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=5,
 		Result:BigGasTank3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -344,7 +351,7 @@ module CigaretteMod
 		recipe Big Gas Tank Type Heavy-Duty
 	{
 		CigaretteMod.CigaretteCarton=1,
-		Base.Cigarettes=1,
+		Base.Cigarettes=8,
 		Result:BigGasTank2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -365,8 +372,6 @@ module CigaretteMod
 		recipe Hood Type Sport
 	{
 		CigaretteMod.CigaretteCarton=1,
-		Base.Cigarettes=2,
-		CigaretteMod.CigarettesOne=10,
 		Result:EngineDoor3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -377,7 +382,7 @@ module CigaretteMod
 		recipe Hood Type Heavy-Duty
 	{
 		CigaretteMod.CigaretteCarton=1,
-		Base.Cigarettes=2,
+		Base.Cigarettes=5,
 		Result:EngineDoor2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -387,7 +392,7 @@ module CigaretteMod
 	}
 		recipe Trunk Lid Type Standard
 	{
-		Base.Cigarettes=5,
+		CigaretteMod.CigaretteCarton=1,
 		Result:TrunkDoor1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -397,7 +402,7 @@ module CigaretteMod
 	}
 		recipe Trunk Lid Type Sport
 	{
-		Base.Cigarettes=5,
+		CigaretteMod.CigaretteCarton=1,
 		Result:TrunkDoor3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -407,7 +412,8 @@ module CigaretteMod
 	}
 		recipe Trunk Lid Type Heavy-Duty
 	{
-		Base.Cigarettes=6,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=2,
 		Result:TrunkDoor2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -417,7 +423,7 @@ module CigaretteMod
 	}
 		recipe Standard Seat Type Standard
 	{
-		Base.Cigarettes=8,
+		Base.Cigarettes=6,
 		Result:NormalCarSeat1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -427,8 +433,7 @@ module CigaretteMod
 	}
 		recipe Standard Seat Type Sport
 	{
-		Base.Cigarettes=8,
-		CigaretteMod.CigarettesOne=10,
+		Base.Cigarettes=6,
 		Result:NormalCarSeat3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -438,7 +443,7 @@ module CigaretteMod
 	}
 		recipe Standard Seat Type Heavy-Duty
 	{
-		Base.Cigarettes=8,
+		Base.Cigarettes=9,
 		Result:NormalCarSeat2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -448,7 +453,7 @@ module CigaretteMod
 	}
 		recipe Double Rear Door Type Standard
 	{
-		Base.Cigarettes=6,		
+		CigaretteMod.CigaretteCarton=1,		
 		Result:RearCarDoorDouble1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -458,7 +463,7 @@ module CigaretteMod
 	}
 		recipe Double Rear Door Type Sport
 	{
-		Base.Cigarettes=6,
+		CigaretteMod.CigaretteCarton=1,
 		Result:RearCarDoorDouble3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -468,7 +473,8 @@ module CigaretteMod
 	}
 		recipe Double Rear Door Type Heavy-Duty
 	{
-		Base.Cigarettes=6,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=3,
 		Result:RearCarDoorDouble2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -478,7 +484,7 @@ module CigaretteMod
 	}
 		recipe Performance Suspension Type Standard
 	{
-		Base.Cigarettes=5,
+		CigaretteMod.CigaretteCarton=1,
 		Result:ModernSuspension1,
 		Time:60.0,
         keep ATMReceiver2,
@@ -489,7 +495,7 @@ module CigaretteMod
 		recipe Performance Suspension Type Sport
 	{
 		
-		Base.Cigarettes=5,
+		CigaretteMod.CigaretteCarton=1,
 		Result:ModernSuspension3,
 		Time:60.0,
         keep ATMReceiver2,
@@ -499,7 +505,8 @@ module CigaretteMod
 	}
 		recipe Performance Suspension Type Heavy-Duty
 	{
-		Base.Cigarettes=6,
+		CigaretteMod.CigaretteCarton=1,
+		Base.Cigarettes=4,
 		Result:ModernSuspension2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -509,8 +516,7 @@ module CigaretteMod
 	}
 		recipe Spare Engine Parts
 	{
-		Base.Cigarettes=1,
-		CigaretteMod.CigarettesOne=5,
+		CigaretteMod.CigarettesOne=8,
 		Result:EngineParts,
 		Time:60.0,
         keep ATMReceiver2,
@@ -519,11 +525,11 @@ module CigaretteMod
         Category:Shop Regular Parts,
 	}
 
-/*********************Shop Modded Parts **********************************/
+/*********************Shop M998 **********************************/
 
 		recipe M998 Big Bullbar
 	{
-		CigaretteMod.CigaretteCarton=2,
+		CigaretteMod.CigaretteCarton=3,
 		Result:M998Bullbar2_Item,
 		Time:60.0,
         keep ATMReceiver2,
@@ -533,7 +539,7 @@ module CigaretteMod
 	}
 		recipe M998 Big Muffler
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=2,
 		Result:M998Muffler2_Item,
 		Time:60.0,
         keep ATMReceiver2,
@@ -561,9 +567,19 @@ module CigaretteMod
 		CanBeDoneFromFloor:TRUE,
         Category:Shop Modded Parts,
 	}
+		recipe M998 Front Armored Door
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:M998CarFrontDoorArmor1_Item,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
 		recipe M998 Hood
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=3,
 		Result:M998EngineDoor2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -591,9 +607,19 @@ module CigaretteMod
 		CanBeDoneFromFloor:TRUE,
         Category:Shop Modded Parts,
 	}
+		recipe M998 Rear Armored Door
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Result:M998CarRearDoorArmor1_Item,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
 		recipe M998 Roofrack
 	{
-		CigaretteMod.CigaretteCarton=2,
+		CigaretteMod.CigaretteCarton=3,
 		Result:M998Roofrack1_Item,
 		Time:60.0,
         keep ATMReceiver2,
@@ -603,7 +629,7 @@ module CigaretteMod
 	}
 		recipe M998 RunFlat Tire
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=3,
 		Result:V101Tire2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -613,7 +639,7 @@ module CigaretteMod
 	}
 		recipe M998 Seat
 	{
-		Base.Cigarettes=5,
+		CigaretteMod.CigaretteCarton=1,
 		Result:M998CarSeat2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -633,7 +659,7 @@ module CigaretteMod
 	}
 		recipe M998 Spare Tire Mount
 	{
-		Base.Cigarettes=8,
+		CigaretteMod.CigaretteCarton=1,
 		Result:M998SpareMount_Item,
 		Time:60.0,
         keep ATMReceiver2,
@@ -643,7 +669,7 @@ module CigaretteMod
 	}
 		recipe M998 Spare Tire with Mount
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=2,
 		Result:M998SpareTireMount_Item,
 		Time:60.0,
         keep ATMReceiver2,
@@ -663,7 +689,7 @@ module CigaretteMod
 	}
 		recipe M998 Windshield
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=2,
 		Result:M998Windshield2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -673,7 +699,7 @@ module CigaretteMod
 	}
 		recipe M998 Windshield Armor
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=3,
 		Result:M998WindshieldArmor2_Item,
 		Time:60.0,
         keep ATMReceiver2,
@@ -681,6 +707,7 @@ module CigaretteMod
 		CanBeDoneFromFloor:TRUE,
         Category:Shop Modded Parts,
 	}
+	/*********************Shop M151A2 **********************************/
 		recipe M151A2 Armor Barrier Left
 	{
 		CigaretteMod.CigaretteCarton=1,
@@ -701,9 +728,29 @@ module CigaretteMod
 		CanBeDoneFromFloor:TRUE,
         Category:Shop Modded Parts,
 	}
+		recipe M151A2 Armored Left Door
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:M151A2LeftDoor2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+		recipe M151A2 Armored Right Door
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:M151A2RightDoor2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
 		recipe M151A2 Armored Side Viewport
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=2,
 		Result:M151A2SideWindow2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -713,7 +760,7 @@ module CigaretteMod
 	}
 		recipe M151A2 Bumper
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=2,
 		Result:M151A2Bumper1_Item,
 		Time:60.0,
         keep ATMReceiver2,
@@ -723,7 +770,7 @@ module CigaretteMod
 	}
 		recipe M151A2 Cab Armor
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=2,
 		Result:M151A2CabArmor1_Item,
 		Time:60.0,
         keep ATMReceiver2,
@@ -743,7 +790,7 @@ module CigaretteMod
 	}
 		recipe M151A2 Hood
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=2,
 		Result:M151A2EngineDoor2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -763,7 +810,7 @@ module CigaretteMod
 	}
 		recipe M151A2 RunFlat Tire
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=3,
 		Result:V102Tire2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -783,7 +830,7 @@ module CigaretteMod
 	}
 		recipe M151A2 Windshield
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=2,
 		Result:M151A2Windshield2,
 		Time:60.0,
         keep ATMReceiver2,
@@ -793,7 +840,7 @@ module CigaretteMod
 	}
 		recipe M151A2 Windshield Armor
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=2,
 		Result:M151A2WindshieldArmor1_Item,
 		Time:60.0,
         keep ATMReceiver2,
@@ -801,10 +848,234 @@ module CigaretteMod
 		CanBeDoneFromFloor:TRUE,
         Category:Shop Modded Parts,
 	}
+	/*********************Shop W460 **********************************/
 		recipe W460 Modern Tire
 	{
-		CigaretteMod.CigaretteCarton=1,
+		CigaretteMod.CigaretteCarton=3,
 		Result:W460ModernTire2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	/*********************Shop Challenger **********************************/
+	recipe Challenger PD Hood
+	{
+		CigaretteMod.CigaretteCarton=4,
+		Result:DG70PDEngineDoor,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe Challenger RT Hood
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:DG70RTEngineDoor,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe Challenger TA Hood
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:DG70TAEngineDoor0,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe Challenger Door
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:DG70Door3,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe Challenger Front Seat
+	{
+		CigaretteMod.CigaretteCarton=2,
+		Result:DodgeFrontSeat3,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe Challenger Rear Seat
+	{
+		CigaretteMod.CigaretteCarton=2,
+		Result:DodgeRearSeat3,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe Challenger Trunk Lid
+	{
+		CigaretteMod.CigaretteCarton=2,
+		Result:DG70TrunkDoor3,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	/*********************Shop Trucks **********************************/
+	recipe '80s Offroad Truck Tires
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:80sOffroadTireA,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe '80s Pickup Seat Front
+	{
+		CigaretteMod.CigaretteCarton=2,
+		Result:80sPickupSeatFront2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe '80s Pickup Seat Rear
+	{
+		CigaretteMod.CigaretteCarton=2,
+		Result:80sPickupSeatRear2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe '82 Jeep J10 Hood
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:82JeepJ10EngineDoor2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe '82 Jeep J10 Hood
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:82JeepJ10EngineDoor2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe '82 Jeep J10 Front Door
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:82JeepJ10CarFrontDoor2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe '88 Chevy S10 Door
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:88ChevyS10CarFrontDoor2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe '88 Chevy S10 Hood
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:88ChevyS10EngineDoor2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe '89 Bronco Door
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:89BroncoCarFrontDoor2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe '89 Bronco Hood
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:89BroncoEngineDoor2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	/*********************Shop E150 **********************************/
+	recipe E150 Front Door
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:E150CarFrontDoor2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe E150 Slide Door
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:E150CarSlideDoor2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe E150 Seat
+	{
+		CigaretteMod.CigaretteCarton=2,
+		Result:E150CarSeat2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe E150 Hood
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:E150EngineDoor2,
+		Time:60.0,
+        keep ATMReceiver2,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Modded Parts,
+	}
+	recipe E150 Tire
+	{
+		CigaretteMod.CigaretteCarton=3,
+		Result:E150Tire2,
 		Time:60.0,
         keep ATMReceiver2,
 		NeedToBeLearn:false,

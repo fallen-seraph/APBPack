@@ -22,19 +22,6 @@ module APBpack
 		Category:Survivalist,
 		OnGiveXP:Recipe.OnGiveXP.Cooking50,
     }
-	recipe Make Soap
-	{
-		keep MortarPestle,
-		Water=5,
-		BakingSoda=1,
-		Butter/OilVegetable/OilOlive/Comfrey/LemonGrass/BlackSage/Plantain=1,
-		
-		Result:Soap2=2,
-		Time:250.0,
-		Category:Survivalist,
-		SkillRequired:PlantScavenging=1,
-		OnGiveXP:Recipe.OnGiveXP.None,
-    }
  	recipe Make Notebook
     {
 		Wire=1,
@@ -98,20 +85,6 @@ module APBpack
 		Time:250.0,
 		Category:Welding,
 		OnGiveXP:Recipe.OnGiveXP.MetalWelding03,
-    }
-	recipe Make LightBulb
-    {
-		keep [Recipe.GetItemTypes.Screwdriver],
-		WineEmpty/WineEmpty2/WhiskeyEmpty/BeerEmpty/EmptyJar,
-		Radio.ElectricWire,
-		Aluminum,
-
-		Result:LightBulb,
-		Time:15.0,
-		Category:Electrical,
-		NeedToBeLearn:false,
-		CanBeDoneFromFloor:true,
-		Sound:MakePlaster,	
     }
 	recipe Make Leather Belt
 	{
@@ -215,6 +188,69 @@ module APBpack
 		Category:Farming,
 		NeedToBeLearn:true,
 	}
+	recipe Make Gunpowder
+	{
+        Fertilizer=1,
+        Water=1,
+		Charcoal=1,
+		keep MortarPestle,
+
+		Result:Gunpowder,
+		Time:60.0,
+		Category:Survivalist,
+		NeedToBeLearn:true,
+	}
+	recipe Refill Propane Tank
+    {
+       destroy PropaneTank=1,
+       LargePropaneTank,
+
+       Result:PropaneTank,
+       Time:50.0,
+       Category:Welding,
+       OnTest:Recipe.OnTest.RefillFromLargePropaneTank,
+       OnCreate:Recipe.OnCreate.RefillFromLargePropaneTank,
+	   CanBeDoneFromFloor      : TRUE,
+    }
+
+	recipe Refill Empty Propane Tank
+    {
+       destroy PropaneTankEmpty=1,
+       LargePropaneTank/HugePropaneTank,
+
+       Result:PropaneTank,
+       Time:50.0,
+       Category:Welding,
+       OnTest:Recipe.OnTest.RefillEmptyPropaneTank,
+       OnCreate:Recipe.OnCreate.RefillEmptyPropaneTank,
+	   CanBeDoneFromFloor      : TRUE,
+    }
+
+	recipe Store Propane in Industrial Tank
+    {
+       destroy LargePropaneTank=1,
+       PropaneTank/BlowTorch,
+
+       Result:LargePropaneTank,
+       Time:50.0,
+       Category:Welding,
+       OnTest:Recipe.OnTest.StorePropaneinLarge,
+       OnCreate:Recipe.OnCreate.StorePropaneinLarge,
+	   CanBeDoneFromFloor      : TRUE,
+    }
+
+	recipe Store Propane in Storage Unit
+    {
+       destroy HugePropaneTank=1,
+       PropaneTank/LargePropaneTank,
+
+       Result:HugePropaneTank,
+       Time:50.0,
+       Category:Welding,
+       OnTest:Recipe.OnTest.StorePropaneinHuge,
+       OnCreate:Recipe.OnCreate.StorePropaneinHuge,
+	   CanBeDoneFromFloor      : TRUE,
+    }
 
 	/****************************************** DIY Engines ******************************************/
 
@@ -227,7 +263,7 @@ module APBpack
 	ScrapMetal=20,				
 	keep Hammer/BallPeenHammer,			
 	
-	Category:AutoParts,
+	Category:Mechanical,
 	CanBeDoneFromFloor:true, 			
 	Result:EngineParts=20, 				
 	SkillRequired:MetalWelding=3,			
@@ -248,7 +284,7 @@ module APBpack
 	keep Hammer/BallPeenHammer, 			
 	keep Saw/GardenSaw, 				
 	
-	Category:AutoParts,
+	Category:Mechanical,
 	CanBeDoneFromFloor:true, 			
 	Result:EngineParts=20, 				
 	SkillRequired:Mechanics=2,			
@@ -258,7 +294,6 @@ module APBpack
     Prop2:EngineParts,				
     }
 
-	
     recipe Make Engine Parts
     {	
 	Aluminum=40, 					
@@ -268,7 +303,7 @@ module APBpack
 	keep Screwdriver, 				
 	keep Wrench, 					
 	keep Saw/GardenSaw, 				
-	Category:AutoParts,	
+	Category:Mechanical,	
 	CanBeDoneFromFloor:true, 			
 	Result:EngineParts=20, 				
 	SkillRequired:Electricity=2,			
@@ -337,4 +372,23 @@ module APBpack
         Prop2					: Source=1,
 		CanBeDoneFromFloor      : TRUE,
     }
+
+	recipe Deconstruct Industrial Propane Tank
+    {
+		keep MetalCutter,
+		LargePropaneTank,
+		keep MetalWorkbench,
+
+		NoBrokenItems			: false,
+		AllowDestroyedItem      : true,
+        Result           		: MetalParts=15,
+        Time             		: 200.0,
+		OnTest					: Recipe.OnTest.NotFavourite,
+		OnGiveXP 				: Give5MWXP,
+		Category 		        : Scrapping,
+		AnimNode 				: Disassemble,
+        Prop1					: Screwdriver,
+        Prop2					: Source=1,
+		CanBeDoneFromFloor      : TRUE,
+	}	
 }

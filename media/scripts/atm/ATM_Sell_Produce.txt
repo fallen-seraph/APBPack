@@ -47,7 +47,7 @@ module CigaretteMod
 		Category:Sell Produce,	
 	}
 	recipe Sell Potato{
-		farming.Potato=5,
+		farming.Potato=3,
 		Result:CigaretteMod.Cigarettes=1,
 		Time:3.0,        
 		keep ATMReceiver,

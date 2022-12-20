@@ -1,20 +1,5 @@
 module APBpack
 {
-    item 86FordE150dnd
-    {
-        DisplayCategory = CarWanna,
-        Weight  = 0.1,
-        Type    = Normal,
-        Icon    = AutoTitle,
-        DisplayName = PinkSlip: 86 Ford Econoline E-150 MuttCuts,
-        VehicleID = Base.86fordE150dnd,
-        WorldStaticModel = CW.AutoTitle,   
-        Tooltip = Tooltip_ClaimOutSide,	
-        Condition = 100,
-        GasTank = 100,
-        HasKey = true,
-        Tags = PinkSlip,
-    }
     item 86FordE150mm
     {
         DisplayCategory = CarWanna,

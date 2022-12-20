@@ -76,15 +76,27 @@ module APBpack
 
 	/********************* Event Orders *************************************/
 
-	item Mission_Orders5
+	item Mission_Orders
 	{
 		DisplayCategory = Literature,
 		Weight = 0.01,
 		Type = Map,
-		DisplayName = Orders: Downtown LV,
+		DisplayName = Orders: GrapeSeed,
 		Icon = Paper,
 		Tooltip = "Mission Orders",
-		Map = Mission_Orders5,
+		Map = Mission_Orders,
+		WorldStaticModel = SheetOfPaper,
+	}
+
+	item Mission_Orders2
+	{
+		DisplayCategory = Literature,
+		Weight = 0.01,
+		Type = Map,
+		DisplayName = Orders: RoseWood CC,
+		Icon = Paper,
+		Tooltip = "Mission Orders",
+		Map = Mission_Orders2,
 		WorldStaticModel = SheetOfPaper,
 	}
 

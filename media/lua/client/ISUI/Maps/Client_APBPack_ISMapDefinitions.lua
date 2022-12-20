@@ -69,9 +69,16 @@ end
 
 -- Event Order Definitions
 
-LootMaps.Init.Mission_Orders5 = function(mapUI)
+LootMaps.Init.Mission_Orders = function(mapUI)
 	local mapAPI = mapUI.javaObject:getAPIv1()
 	MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
 	mapAPI:setBoundsInSquares(FlyerX1, FlyerY1, FlyerX2, FlyerY2)
-	overlayPNG(mapUI, FlyerX1, FlyerY1, 1.0, "lootMapPNG", "media/ui/LootableMaps/Mission_Orders5.png", 1.0)
+	overlayPNG(mapUI, FlyerX1, FlyerY1, 1.0, "lootMapPNG", "media/ui/LootableMaps/Mission_Orders.png", 1.0)
+end
+
+LootMaps.Init.Mission_Orders2 = function(mapUI)
+	local mapAPI = mapUI.javaObject:getAPIv1()
+	MapUtils.initDirectoryMapData(mapUI, 'media/maps/Muldraugh, KY')
+	mapAPI:setBoundsInSquares(FlyerX1, FlyerY1, FlyerX2, FlyerY2)
+	overlayPNG(mapUI, FlyerX1, FlyerY1, 1.0, "lootMapPNG", "media/ui/LootableMaps/Mission_Orders2.png", 1.0)
 end

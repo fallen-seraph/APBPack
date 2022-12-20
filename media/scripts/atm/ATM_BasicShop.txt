@@ -122,6 +122,36 @@ module CigaretteMod
 		CanBeDoneFromFloor:TRUE,
         Category:Shop Hardware,
 	}
+		recipe Large Primers
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Result:PrimerLG_Pack,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Hardware,
+	}
+		recipe Shotgun Primers
+	{
+		CigaretteMod.CigaretteCarton=1,
+		Result:PrimerSG_Pack,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Hardware,
+	}
+		recipe Small Primers
+	{
+		Base.Cigarettes=8,
+		Result:PrimerSM_Pack,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Hardware,
+	}
 
 /********************* Shop Premium Market *************************************/
 
@@ -301,6 +331,76 @@ module CigaretteMod
 	{
 		CigaretteMod.CigaretteCarton=2,
 		Result: Shotgun_Ammo_Loot_Box,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe 5 count 5.45x39 Casings
+	{
+		CigaretteMod.CigarettesOne=5,
+		Result: Brass545x39=5,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe 5 count 5.7x28 Casings
+	{
+		CigaretteMod.CigarettesOne=5,
+		Result: Brass57=5,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe 5 count 45-LC Casings
+	{
+		CigaretteMod.CigarettesOne=5,
+		Result: Brass45LC=5,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe 5 count 4570 Gov Casings
+	{
+		CigaretteMod.CigarettesOne=5,
+		Result: Brass4570=5,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe 5 count 7.62x51 Casings
+	{
+		CigaretteMod.CigarettesOne=5,
+		Result: Brass762x51=5,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe 5 count 7.62x54-R Casings
+	{
+		CigaretteMod.CigarettesOne=5,
+		Result: Brass762x54r=5,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Unique Market,
+	}
+	recipe 5 count 30-06 Casings
+	{
+		CigaretteMod.CigarettesOne=5,
+		Result: Brass3006=5,
 		Time:60.0,
         keep ATMReceiver,
 		NeedToBeLearn:false,

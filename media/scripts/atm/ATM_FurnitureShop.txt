@@ -421,36 +421,6 @@ module APBpack
 		CanBeDoneFromFloor:TRUE,
         Category:Shop Furniture,
 	}
-		recipe Bar Wall Middle
-	{
-		Base.Cigarettes=2,
-		Result:Adm_MiddleBarWallShelves,
-		Time:60.0,
-        keep ATMReceiver,
-		NeedToBeLearn:false,
-		CanBeDoneFromFloor:TRUE,
-        Category:Shop Furniture,
-	}
-		recipe Bar Wall Left
-	{
-		Base.Cigarettes=2,
-		Result:Adm_LeftBarWallShelves,
-		Time:60.0,
-        keep ATMReceiver,
-		NeedToBeLearn:false,
-		CanBeDoneFromFloor:TRUE,
-        Category:Shop Furniture,
-	}
-		recipe Bar Wall Right
-	{
-		Base.Cigarettes=2,
-		Result:Adm_RightBarWallShelves,
-		Time:60.0,
-        keep ATMReceiver,
-		NeedToBeLearn:false,
-		CanBeDoneFromFloor:TRUE,
-        Category:Shop Furniture,
-	}
 		recipe Large clothes Rack 1/2
 	{
 		Base.Cigarettes=2,

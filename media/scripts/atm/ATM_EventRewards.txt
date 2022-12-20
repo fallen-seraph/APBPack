@@ -78,7 +78,17 @@ module CigaretteMod
 	recipe MuttCutts Van
 	{
 		Base.ChallengeCoin=3,
-		Result:APBpack.86FordE150dnd,
+		Result:PinkSlip.86fordE150dnd,
+		Time:60.0,
+        keep ATMReceiver,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:TRUE,
+        Category:Shop Event Rewards,
+	}
+	recipe '70 Dodge PD
+	{
+		Base.ChallengeCoin=5,
+		Result:PinkSlip.70dodgePD,
 		Time:60.0,
         keep ATMReceiver,
 		NeedToBeLearn:false,

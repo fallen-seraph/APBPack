@@ -58,18 +58,15 @@ local distributionTable = {
     AmmoCan50_762x51 = {
         rolls = 5,
         items = {
-            "762x39Bullets", 100,	
-            "762x39Bullets", 100,		
-            "762x39Bullets", 100,		
-            "762x39Bullets", 100,		
-            "762x39Bullets", 100,		
+            "762x51Bullets", 100,	
+            "762x51Bullets", 100,		
+            "762x51Bullets", 100,		
+            "762x51Bullets", 100,		
         },
     },
     AmmoCan50_762x54r = {
-        rolls = 5,
+        rolls = 4,
         items = {
-            "762x54rBullets", 100,
-            "762x54rBullets", 100,
             "762x54rBullets", 100,
             "762x54rBullets", 100,
             "762x54rBullets", 100,
@@ -78,7 +75,6 @@ local distributionTable = {
     AmmoCan50_3006 = {
         rolls = 5,
         items = {
-            "3006Bullets", 100,
             "3006Bullets", 100,
             "3006Bullets", 100,
             "3006Bullets", 100,
@@ -111,11 +107,13 @@ local distributionTable = {
             "10gShotgunShells", 100,
             "10gShotgunShells", 100,
             "10gShotgunShells", 100,
+            "10gShotgunShells", 100,
         },
     },
     AmmoCan50_4 = {
         rolls = 3,
         items = {
+            "4gShotgunShells", 100,
             "4gShotgunShells", 100,
             "4gShotgunShells", 100,
             "4gShotgunShells", 100,
@@ -160,9 +158,8 @@ AmmoCan30_57 = {
         },
     },
     AmmoCan30_380 = {
-        rolls = 6,
+        rolls = 5,
         items = {
-            "Bullets380", 100,
             "Bullets380", 100,
             "Bullets380", 100,
             "Bullets380", 100,
@@ -272,13 +269,13 @@ AmmoCan30_57 = {
         },
     },
     PolyCan_Red_38Speed = {		-- SPEEDLOADER
-        rolls = 10,
+        rolls = 5,
         items = {
             "38Speed", 100,
         },
     },
     PolyCan_Red_44Speed = {		-- SPEEDLOADER
-        rolls = 10,
+        rolls = 5,
         items = {
             "44Speed", 100,
         },
@@ -288,49 +285,49 @@ AmmoCan30_57 = {
 --	BLUE POLY-CAN CONTENTS			--
 --------------------------------------------------
     PolyCan_Blue_9mmClip = {		-- PISTOL 9mm
-        rolls = 8,
+        rolls = 6,
         items = {
             "9mmClip", 100,
         },
     },
     PolyCan_Blue_9mmExtClip = {		-- PISTOL 9mm
-        rolls = 6,
+        rolls = 4,
         items = {
             "9mmExtClip", 100,
         },
     },
     PolyCan_Blue_9mmDrum = {		-- PISTOL 9mm
-        rolls = 4,
+        rolls = 3,
         items = {
             "9mmDrum", 100,
         },
     },
     PolyCan_Blue_45DSClip = {		-- PISTOL 45
-        rolls = 8,
+        rolls = 5,
         items = {
             "45DSClip", 100,
         },
     },
     PolyCan_Blue_45DSExtClip = {	-- PISTOL 45
-        rolls = 6,
+        rolls = 3,
         items = {
             "45DSExtClip", 100,
         },
     },
     PolyCan_Blue_45Drum = {		-- PISTOL 45
-        rolls = 4,
+        rolls = 2,
         items = {
             "45Drum", 100,
         },
     },
     PolyCan_Blue_45Clip = {		-- PISTOL 45 SingleStack
-        rolls = 8,
+        rolls = 4,
         items = {
             "45Clip", 100,
         },
     },
     PolyCan_Blue_45ExtClip = {		-- PISTOL 45 SingleStack
-        rolls = 6,
+        rolls = 3,
         items = {
             "45ExtClip", 100,
         },
@@ -341,37 +338,37 @@ AmmoCan30_57 = {
 --	BROWN POLY-CAN CONTENTS			--
 --------------------------------------------------
     PolyCan_Brown_556Clip = {		-- RIFLE
-        rolls = 6,
+        rolls = 3,
         items = {
             "556Clip", 100,
         },
     },
     PolyCan_Brown_556Drum = {		-- RIFLE
-        rolls = 4,
+        rolls = 2,
         items = {
             "556Drum", 100,
         },
     },
     PolyCan_Brown_AKClip = {		-- RIFLE
-        rolls = 6,
+        rolls = 3,
         items = {
             "AKClip", 100,
         },
     },
     PolyCan_Brown_762Drum = {		-- RIFLE
-        rolls = 4,
+        rolls = 2,
         items = {
             "762Drum", 100,
         },
     },
     PolyCan_Brown_545StdClip = {	-- RIFLE
-        rolls = 6,
+        rolls = 3,
         items = {
             "545StdClip", 100,
         },
     },
     PolyCan_Brown_545Drum = {		-- RIFLE
-        rolls = 4,
+        rolls = 2,
         items = {
             "545Drum", 100,
         },
@@ -381,49 +378,49 @@ AmmoCan30_57 = {
 --	BEIGE POLY-CAN CONTENTS			--
 --------------------------------------------------
     PolyCan_Beige_308StdClip = {	-- HEAVY
-        rolls = 6,
+        rolls = 3,
         items = {
             "308StdClip", 100,
         },
     },
     PolyCan_Beige_308ExtClip = {	-- HEAVY
-        rolls = 4,
+        rolls = 2,
         items = {
             "308ExtClip", 100,
         },
     },
     PolyCan_Beige_BMG = {		-- HEAVY
-        rolls = 6,
+        rolls = 3,
         items = {
             "M82Clip", 100,
         },
     },
     PolyCan_Beige_K11 = {		-- HEAVY
-        rolls = 4,
+        rolls = 3,
         items = {
             "K11HEClip", 100,
         },
     },
     PolyCan_Beige_SVDClip = {		-- HEAVY
-        rolls = 6,
+        rolls = 2,
         items = {
             "SVDClip", 100,
         },
     },
     PolyCan_Beige_SKSClip = {		-- HEAVY
-        rolls = 20,
+        rolls = 5,
         items = {
             "SKSClip", 100,
         },
     },
     PolyCan_Beige_M1Clip = {		-- HEAVY
-        rolls = 20,
+        rolls = 5,
         items = {
             "M1Clip", 100,
         },
     },
     PolyCan_Beige_1903Clip = {		-- HEAVY
-        rolls = 20,
+        rolls = 5,
         items = {
             "1903Clip", 100,	
         },
