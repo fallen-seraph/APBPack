@@ -51,7 +51,7 @@ module Base
 		texture = vehicles/Vehicles_92amgeneralM998_Interior_Wheel,
 		shader = vehiclewheel,
 	}
-	vehicle 92amgeneralM998
+	vehicle 92amgeneralM998KSSA
 	{
 		mechanicType = 2,
 		offRoadEfficiency = 1.5,
